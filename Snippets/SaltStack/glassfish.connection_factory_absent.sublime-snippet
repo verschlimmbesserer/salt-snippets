@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  glassfish.connection_factory_absent:
+    - name: $2
+    - both: ${3:true}
+    - server: $4
+  $0
+]]></content>
+<tabTrigger>glassfish.connection_factory_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

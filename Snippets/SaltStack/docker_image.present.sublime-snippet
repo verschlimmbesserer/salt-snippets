@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  docker_image.present:
+    - name: $2
+    - tag: $3
+    - build: $4
+    - load: $5
+    - force: $6
+    - insecure_registry: ${7:false}
+    - client_timeout: ${8:false}
+    - dockerfile: $9
+    - sls: $10
+    - base: ${11:opensuse/python}
+    - saltenv: ${12:base}
+    - pillarenv: $13
+    - pillar: $14
+  $0
+]]></content>
+<tabTrigger>docker_image.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

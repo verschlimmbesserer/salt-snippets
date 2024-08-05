@@ -1,0 +1,35 @@
+<snippet>
+  <content><![CDATA[
+$1
+  bigip.modify_pool:
+    - hostname: $2
+    - username: $3
+    - password: $4
+    - name: $5
+    - allow_nat: $6
+    - allow_snat: $7
+    - description: $8
+    - gateway_failsafe_device: $9
+    - ignore_persisted_weight: $10
+    - ip_tos_to_client: $11
+    - ip_tos_to_server: $12
+    - link_qos_to_client: $13
+    - link_qos_to_server: $14
+    - load_balancing_mode: $15
+    - min_active_members: $16
+    - min_up_members: $17
+    - min_up_members_action: $18
+    - min_up_members_checking: $19
+    - monitor: $20
+    - profiles: $21
+    - queue_depth_limit: $22
+    - queue_on_connection_limit: $23
+    - queue_time_limit: $24
+    - reselect_tries: $25
+    - service_down_action: $26
+    - slow_ramp_time: $27
+  $0
+]]></content>
+<tabTrigger>bigip.modify_pool</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

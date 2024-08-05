@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.rename_config:
+    - name: $2
+    - xpath: $3
+    - newname: $4
+    - commit: ${5:false}
+  $0
+]]></content>
+<tabTrigger>panos.rename_config</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

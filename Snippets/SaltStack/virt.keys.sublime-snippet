@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  virt.keys:
+    - name: $2
+    - basepath: ${3:/etc/pki}
+  $0
+]]></content>
+<tabTrigger>virt.keys</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

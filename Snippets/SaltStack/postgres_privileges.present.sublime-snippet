@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  postgres_privileges.present:
+    - name: $2
+    - object_name: $3
+    - object_type: $4
+    - privileges: $5
+    - grant_option: $6
+    - prepend: ${7:public}
+    - maintenance_db: $8
+    - user: $9
+    - db_password: $10
+    - db_host: $11
+    - db_port: $12
+    - db_user: $13
+  $0
+]]></content>
+<tabTrigger>postgres_privileges.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

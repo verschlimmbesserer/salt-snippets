@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_dns.zone_present:
+    - name: $2
+    - resource_group: $3
+    - etag: $4
+    - if_match: $5
+    - if_none_match: $6
+    - registration_virtual_networks: $7
+    - resolution_virtual_networks: $8
+    - tags: $9
+    - zone_type: ${10:public}
+    - connection_auth: $11
+  $0
+]]></content>
+<tabTrigger>azurearm_dns.zone_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

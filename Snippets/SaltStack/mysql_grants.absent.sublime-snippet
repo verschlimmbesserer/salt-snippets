@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mysql_grants.absent:
+    - name: $2
+    - grant: $3
+    - database: $4
+    - user: $5
+    - host: ${6:localhost}
+    - grant_option: ${7:false}
+    - escape: ${8:true}
+  $0
+]]></content>
+<tabTrigger>mysql_grants.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

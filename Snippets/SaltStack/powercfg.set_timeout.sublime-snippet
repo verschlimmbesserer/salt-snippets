@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  powercfg.set_timeout:
+    - name: $2
+    - value: $3
+    - power: ${4:ac}
+    - scheme: $5
+  $0
+]]></content>
+<tabTrigger>powercfg.set_timeout</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

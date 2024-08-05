@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+$1
+  buildout.installed:
+    - name: $2
+    - config: $3
+    - quiet: $4
+    - parts: ${5:buildout.cfg}
+    - user: ${6:false}
+    - env: $7
+    - buildout_ver: $8
+    - test_release: $9
+    - distribute: ${10:false}
+    - new_st: $11
+    - offline: $12
+    - newest: ${13:false}
+    - python: ${14:false}
+    - debug: ${15:false}
+    - verbose: ${16:false}
+    - unless: $17
+    - onlyif: $18
+    - use_vt: ${19:false}
+    - loglevel: ${20:debug}
+  $0
+]]></content>
+<tabTrigger>buildout.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

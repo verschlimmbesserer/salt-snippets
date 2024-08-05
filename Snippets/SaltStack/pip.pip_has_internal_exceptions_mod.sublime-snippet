@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pip.pip_has_internal_exceptions_mod:
+    - ver: $2
+  $0
+]]></content>
+<tabTrigger>pip.pip_has_internal_exceptions_mod</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

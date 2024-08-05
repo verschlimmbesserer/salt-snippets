@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.keyvalue:
+    - name: $2
+    - key: $3
+    - value: $4
+    - key_values: $5
+    - separator: ${6:=}
+    - append_if_not_found: ${7:false}
+    - prepend_if_not_found: ${8:false}
+    - search_only: ${9:false}
+    - show_changes: ${10:true}
+    - ignore_if_missing: ${11:false}
+    - count: ${12:1}
+    - uncomment: $13
+    - key_ignore_case: ${14:false}
+    - value_ignore_case: ${15:false}
+  $0
+]]></content>
+<tabTrigger>file.keyvalue</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

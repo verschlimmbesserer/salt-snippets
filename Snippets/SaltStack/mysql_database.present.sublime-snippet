@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mysql_database.present:
+    - name: $2
+    - character_set: $3
+    - collate: $4
+  $0
+]]></content>
+<tabTrigger>mysql_database.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

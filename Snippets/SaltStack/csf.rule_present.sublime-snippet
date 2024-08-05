@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  csf.rule_present:
+    - name: $2
+    - method: $3
+    - port: $4
+    - proto: ${5:tcp}
+    - direction: ${6:in}
+    - port_origin: ${7:d}
+    - ip_origin: ${8:s}
+    - ttl: $9
+    - comment: ${10:}
+    - reload: ${11:false}
+  $0
+]]></content>
+<tabTrigger>csf.rule_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

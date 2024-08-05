@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  grafana4_user.present:
+    - name: $2
+    - password: $3
+    - email: $4
+    - is_admin: ${5:false}
+    - fullname: $6
+    - theme: $7
+    - profile: ${8:grafana}
+  $0
+]]></content>
+<tabTrigger>grafana4_user.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

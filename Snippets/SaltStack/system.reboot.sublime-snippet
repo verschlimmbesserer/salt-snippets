@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  system.reboot:
+    - name: $2
+    - message: $3
+    - timeout: ${4:5}
+    - force_close: ${5:true}
+    - in_seconds: ${6:false}
+    - only_on_pending_reboot: ${7:true}
+  $0
+]]></content>
+<tabTrigger>system.reboot</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

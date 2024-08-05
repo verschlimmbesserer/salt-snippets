@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  test.check_pillar:
+    - name: $2
+    - present: $3
+    - boolean: $4
+    - integer: $5
+    - string: $6
+    - listing: $7
+    - dictionary: $8
+    - verbose: ${9:false}
+  $0
+]]></content>
+<tabTrigger>test.check_pillar</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

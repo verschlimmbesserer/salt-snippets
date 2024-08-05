@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  splunk.absent:
+    - email: $2
+    - profile: ${3:splunk}
+  $0
+]]></content>
+<tabTrigger>splunk.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

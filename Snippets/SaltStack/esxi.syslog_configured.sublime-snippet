@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxi.syslog_configured:
+    - name: $2
+    - syslog_configs: $3
+    - firewall: ${4:true}
+    - reset_service: ${5:true}
+    - reset_syslog_config: ${6:false}
+    - reset_configs: $7
+  $0
+]]></content>
+<tabTrigger>esxi.syslog_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

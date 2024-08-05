@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_resource.policy_definition_present:
+    - name: $2
+    - policy_rule: $3
+    - policy_type: $4
+    - mode: $5
+    - display_name: $6
+    - description: $7
+    - metadata: $8
+    - parameters: $9
+    - policy_rule_json: $10
+    - policy_rule_file: $11
+    - template: ${12:jinja}
+    - source_hash: $13
+    - source_hash_name: $14
+    - skip_verify: ${15:false}
+    - connection_auth: $16
+  $0
+]]></content>
+<tabTrigger>azurearm_resource.policy_definition_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

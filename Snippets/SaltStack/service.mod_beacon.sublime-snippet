@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  service.mod_beacon:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>service.mod_beacon</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

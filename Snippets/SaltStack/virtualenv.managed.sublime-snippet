@@ -1,0 +1,40 @@
+<snippet>
+  <content><![CDATA[
+$1
+  virtualenv.managed:
+    - name: $2
+    - venv_bin: $3
+    - requirements: $4
+    - system_site_packages: ${5:false}
+    - distribute: ${6:false}
+    - use_wheel: ${7:false}
+    - clear: ${8:false}
+    - python: $9
+    - extra_search_dir: $10
+    - never_download: $11
+    - prompt: $12
+    - user: $13
+    - cwd: $14
+    - index_url: $15
+    - extra_index_url: $16
+    - pre_releases: ${17:false}
+    - no_deps: ${18:false}
+    - pip_download: $19
+    - pip_download_cache: $20
+    - pip_exists_action: $21
+    - pip_ignore_installed: ${22:false}
+    - proxy: $23
+    - use_vt: ${24:false}
+    - env_vars: $25
+    - no_use_wheel: ${26:false}
+    - pip_upgrade: ${27:false}
+    - pip_pkgs: $28
+    - pip_no_cache_dir: ${29:false}
+    - pip_cache_dir: $30
+    - process_dependency_links: ${31:false}
+    - no_binary: $32
+  $0
+]]></content>
+<tabTrigger>virtualenv.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

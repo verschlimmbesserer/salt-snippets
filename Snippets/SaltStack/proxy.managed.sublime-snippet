@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  proxy.managed:
+    - name: $2
+    - port: $3
+    - services: $4
+    - user: $5
+    - password: $6
+    - bypass_domains: $7
+    - network_service: ${8:ethernet}
+  $0
+]]></content>
+<tabTrigger>proxy.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

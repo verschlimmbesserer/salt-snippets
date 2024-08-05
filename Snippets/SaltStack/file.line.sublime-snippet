@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.line:
+    - name: $2
+    - content: $3
+    - match: $4
+    - mode: $5
+    - location: $6
+    - before: $7
+    - after: $8
+    - show_changes: ${9:true}
+    - backup: ${10:false}
+    - quiet: ${11:false}
+    - indent: ${12:true}
+    - create: ${13:false}
+    - user: $14
+    - group: $15
+    - file_mode: $16
+  $0
+]]></content>
+<tabTrigger>file.line</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

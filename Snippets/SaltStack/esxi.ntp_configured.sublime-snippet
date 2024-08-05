@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxi.ntp_configured:
+    - name: $2
+    - service_running: $3
+    - ntp_servers: $4
+    - service_policy: $5
+    - service_restart: ${6:false}
+    - update_datetime: ${7:false}
+  $0
+]]></content>
+<tabTrigger>esxi.ntp_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

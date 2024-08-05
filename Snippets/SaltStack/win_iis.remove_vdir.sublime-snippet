@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_iis.remove_vdir:
+    - name: $2
+    - site: $3
+    - app: ${4:/}
+  $0
+]]></content>
+<tabTrigger>win_iis.remove_vdir</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

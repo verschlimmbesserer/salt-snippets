@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cmd.wait:
+    - name: $2
+    - cwd: $3
+    - root: $4
+    - runas: $5
+    - shell: $6
+    - env: $7
+    - stateful: ${8:false}
+    - umask: $9
+    - output_loglevel: ${10:debug}
+    - hide_output: ${11:false}
+    - use_vt: ${12:false}
+    - success_retcodes: $13
+    - success_stdout: $14
+    - success_stderr: $15
+  $0
+]]></content>
+<tabTrigger>cmd.wait</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

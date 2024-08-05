@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pcs.constraint_present:
+    - name: $2
+    - constraint_id: $3
+    - constraint_type: $4
+    - constraint_options: $5
+    - cibname: $6
+  $0
+]]></content>
+<tabTrigger>pcs.constraint_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  schedule.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>schedule.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

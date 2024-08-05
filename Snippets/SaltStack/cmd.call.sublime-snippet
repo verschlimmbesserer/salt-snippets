@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cmd.call:
+    - name: $2
+    - func: $3
+    - args: $4
+    - kws: $5
+    - output_loglevel: ${6:debug}
+    - hide_output: ${7:false}
+    - use_vt: ${8:false}
+  $0
+]]></content>
+<tabTrigger>cmd.call</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

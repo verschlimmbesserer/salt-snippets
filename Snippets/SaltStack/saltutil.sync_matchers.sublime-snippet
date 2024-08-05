@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  saltutil.sync_matchers:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>saltutil.sync_matchers</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

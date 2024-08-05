@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkgrepo.managed:
+    - name: $2
+    - ppa: $3
+    - copr: $4
+  $0
+]]></content>
+<tabTrigger>pkgrepo.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  alternatives.auto:
+    - name: $2 # is the master name for this link group (e.g. pager)
+  $0
+]]></content>
+<tabTrigger>alternatives.auto</tabTrigger>
+<description>Configuration of the alternatives system. Instruct alternatives to use the highest priority path for "name"</description>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ipmi.boot_device:
+    - name: ${2:default}
+  $0
+]]></content>
+<tabTrigger>ipmi.boot_device</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

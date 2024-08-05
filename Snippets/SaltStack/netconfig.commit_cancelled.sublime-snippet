@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  netconfig.commit_cancelled:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>netconfig.commit_cancelled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

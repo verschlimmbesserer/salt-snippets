@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+$1
+  salt.function:
+    - name: $2
+    - tgt: $3
+    - ssh: ${4:false}
+    - tgt_type: ${5:glob}
+    - ret: ${6:}
+    - ret_config: $7
+    - ret_kwargs: $8
+    - expect_minions: ${9:false}
+    - fail_minions: $10
+    - fail_function: $11
+    - arg: $12
+    - kwarg: $13
+    - timeout: $14
+    - batch: $15
+    - subset: $16
+    - failhard: $17
+  $0
+]]></content>
+<tabTrigger>salt.function</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

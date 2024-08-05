@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  alias.absent:
+    - name: $2 #  The alias to remove
+  $0
+]]></content>
+<tabTrigger>alias.absent</tabTrigger>
+<description> Ensure that the named alias is absent </description>
+<scope> source.sls </scope>
+</snippet>

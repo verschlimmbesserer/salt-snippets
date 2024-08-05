@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  bower.installed:
+    - name: $2
+    - dir: $3
+    - pkgs: $4
+    - user: $5
+    - env: $6
+  $0
+]]></content>
+<tabTrigger>bower.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

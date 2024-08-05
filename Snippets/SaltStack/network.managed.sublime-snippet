@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  network.managed:
+    - name: $2
+    - enabled: ${3:true}
+  $0
+]]></content>
+<tabTrigger>network.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

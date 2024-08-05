@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  glassfish.jdbc_datasource_absent:
+    - name: $2
+    - both: ${3:true}
+    - server: $4
+  $0
+]]></content>
+<tabTrigger>glassfish.jdbc_datasource_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.serialize:
+    - name: $2
+    - dataset: $3
+    - dataset_pillar: $4
+    - user: $5
+    - group: $6
+    - mode: $7
+    - backup: ${8:}
+    - makedirs: ${9:false}
+    - show_changes: ${10:true}
+    - create: ${11:true}
+    - merge_if_exists: ${12:false}
+    - encoding: $13
+    - encoding_errors: ${14:strict}
+    - serializer: $15
+    - serializer_opts: $16
+    - deserializer_opts: $17
+  $0
+]]></content>
+<tabTrigger>file.serialize</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

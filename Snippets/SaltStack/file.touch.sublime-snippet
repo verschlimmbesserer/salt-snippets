@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.touch:
+    - name: $2
+    - atime: $3
+    - mtime: $4
+    - makedirs: ${5:false}
+  $0
+]]></content>
+<tabTrigger>file.touch</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

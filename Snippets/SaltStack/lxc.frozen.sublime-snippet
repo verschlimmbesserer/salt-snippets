@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxc.frozen:
+    - name: $2
+    - start: ${3:true}
+    - path: $4
+  $0
+]]></content>
+<tabTrigger>lxc.frozen</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

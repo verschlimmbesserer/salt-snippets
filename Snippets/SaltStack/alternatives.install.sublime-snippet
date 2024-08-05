@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  alternatives.install:
+    - name: $2 # is the master name for this link group (e.g. pager)
+    - link: $3 # is the symlink pointing to /etc/alternatives/<name>. (e.g. /usr/bin/pager)
+    - path: $4 # is the location of the new alternative target. NB: This file / directory must already exist. (e.g. /usr/bin/less)
+    - priority: $5 # is an integer; options with higher numbers have higher priority in automatic mode.
+  $0
+]]></content>
+<tabTrigger>alternatives.install</tabTrigger>
+<description>Install new alternative for defined "name"</description>
+<scope> source.sls </scope>
+</snippet>

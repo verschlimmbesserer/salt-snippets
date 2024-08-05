@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  reg.present:
+    - name: $2
+    - vname: $3
+    - vdata: $4
+    - vtype: ${5:reg_sz}
+    - use_32bit_registry: ${6:false}
+    - win_owner: $7
+    - win_perms: $8
+    - win_deny_perms: $9
+    - win_inheritance: ${10:true}
+    - win_perms_reset: ${11:false}
+  $0
+]]></content>
+<tabTrigger>reg.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

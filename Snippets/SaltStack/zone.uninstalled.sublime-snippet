@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zone.uninstalled:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>zone.uninstalled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_iam_role.present:
+    - name: $2
+    - policy_document: $3
+    - policy_document_from_pillars: $4
+    - path: $5
+    - policies: $6
+    - policies_from_pillars: $7
+    - managed_policies: $8
+    - create_instance_profile: ${9:true}
+    - region: $10
+    - key: $11
+    - keyid: $12
+    - profile: $13
+    - delete_policies: ${14:true}
+  $0
+]]></content>
+<tabTrigger>boto_iam_role.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_route53.present:
+    - name: $2
+    - value: $3
+    - zone: $4
+    - record_type: $5
+    - ttl: $6
+    - identifier: $7
+    - region: $8
+    - key: $9
+    - keyid: $10
+    - profile: $11
+    - wait_for_sync: ${12:true}
+    - split_dns: ${13:false}
+    - private_zone: ${14:false}
+  $0
+]]></content>
+<tabTrigger>boto_route53.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

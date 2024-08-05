@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  nxos.user_present:
+    - name: $2
+    - password: $3
+    - roles: $4
+    - encrypted: ${5:false}
+    - crypt_salt: $6
+    - algorithm: ${7:sha256}
+  $0
+]]></content>
+<tabTrigger>nxos.user_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

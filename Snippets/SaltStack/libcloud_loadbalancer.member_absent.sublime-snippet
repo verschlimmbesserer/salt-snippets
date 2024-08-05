@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  libcloud_loadbalancer.member_absent:
+    - ip: $2
+    - port: $3
+    - balancer_id: $4
+    - profile: $5
+  $0
+]]></content>
+<tabTrigger>libcloud_loadbalancer.member_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

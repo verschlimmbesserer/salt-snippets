@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cmd.script:
+    - name: $2
+    - source: $3
+    - template: $4
+    - cwd: $5
+    - runas: $6
+    - password: $7
+    - shell: $8
+    - env: $9
+    - stateful: ${10:false}
+    - umask: $11
+    - timeout: $12
+    - use_vt: ${13:false}
+    - output_loglevel: ${14:debug}
+    - hide_output: ${15:false}
+    - defaults: $16
+    - context: $17
+    - success_retcodes: $18
+    - success_stdout: $19
+    - success_stderr: $20
+  $0
+]]></content>
+<tabTrigger>cmd.script</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

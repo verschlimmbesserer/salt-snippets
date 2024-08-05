@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mount.unmounted:
+    - name: $2
+    - device: $3
+    - config: ${4:/etc/fstab}
+    - persist: ${5:false}
+    - user: $6
+  $0
+]]></content>
+<tabTrigger>mount.unmounted</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

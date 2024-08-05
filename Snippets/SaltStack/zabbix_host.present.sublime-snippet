@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zabbix_host.present:
+    - host: $2
+    - groups: $3
+    - interfaces: $4
+  $0
+]]></content>
+<tabTrigger>zabbix_host.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

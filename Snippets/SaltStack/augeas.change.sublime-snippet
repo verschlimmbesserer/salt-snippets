@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  augeas.change:
+    - name: $2
+    - context: $3
+    - changes: $4
+    - lens: $5
+    - load_path: $6
+  $0
+]]></content>
+<tabTrigger>augeas.change</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

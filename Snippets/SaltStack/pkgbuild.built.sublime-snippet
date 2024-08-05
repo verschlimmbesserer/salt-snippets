@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkgbuild.built:
+    - name: $2
+    - runas: $3
+    - dest_dir: $4
+    - spec: $5
+    - sources: $6
+    - tgt: $7
+    - template: $8
+    - deps: $9
+    - env: $10
+    - results: $11
+    - force: ${12:false}
+    - saltenv: ${13:base}
+    - log_dir: ${14:/var/log/salt/pkgbuild}
+  $0
+]]></content>
+<tabTrigger>pkgbuild.built</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

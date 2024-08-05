@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cloud.volume_attached:
+    - name: $2
+    - server_name: $3
+    - provider: $4
+  $0
+]]></content>
+<tabTrigger>cloud.volume_attached</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

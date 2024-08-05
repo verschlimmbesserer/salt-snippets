@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  nxos.replace:
+    - name: $2
+    - repl: $3
+    - full_match: ${4:false}
+  $0
+]]></content>
+<tabTrigger>nxos.replace</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

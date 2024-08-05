@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ansible.playbooks:
+    - name: $2 # path to playbook. This can be relative to rundir or the git repo
+    - rundir: $3 # location to run ansible-playbook from.
+    - git_repo: $4 # git repository to clone for ansible playbooks.  This is cloned using the `git.latest` state, and is cloned to the `rundir` if specified, otherwise it is clone to the `cache_dir`
+    - git_kwargs: $5 # extra kwargs to pass to `git.latest` state module besides the `name` and `target`
+    - ansible_kwargs: $6 # extra kwargs to pass to `ansible.playbooks` execution module besides the `name` and `target`
+  $0
+]]></content>
+<tabTrigger>ansible.playbooks</tabTrigger>
+<description>Execution of Ansible modules from within states</description>
+<scope> source.sls </scope>
+</snippet>

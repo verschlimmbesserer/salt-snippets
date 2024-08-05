@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  redis.string:
+    - name: $2
+    - value: $3
+    - expire: $4
+    - expireat: $5
+  $0
+]]></content>
+<tabTrigger>redis.string</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxi.coredump_configured:
+    - name: $2
+    - enabled: $3
+    - dump_ip: $4
+    - host_vnic: ${5:vmk0}
+    - dump_port: ${6:6500}
+  $0
+]]></content>
+<tabTrigger>esxi.coredump_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

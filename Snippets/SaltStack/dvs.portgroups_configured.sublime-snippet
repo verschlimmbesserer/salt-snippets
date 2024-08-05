@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  dvs.portgroups_configured:
+    - name: $2
+    - dvs: $3
+    - portgroups: $4
+  $0
+]]></content>
+<tabTrigger>dvs.portgroups_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

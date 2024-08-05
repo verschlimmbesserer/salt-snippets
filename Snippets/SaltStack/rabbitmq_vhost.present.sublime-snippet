@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  rabbitmq_vhost.present:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>rabbitmq_vhost.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

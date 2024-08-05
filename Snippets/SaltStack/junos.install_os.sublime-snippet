@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.install_os:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>junos.install_os</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

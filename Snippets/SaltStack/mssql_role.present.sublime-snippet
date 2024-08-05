@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mssql_role.present:
+    - name: $2
+    - owner: $3
+    - grants: $4
+  $0
+]]></content>
+<tabTrigger>mssql_role.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

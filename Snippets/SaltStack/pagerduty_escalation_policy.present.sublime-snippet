@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pagerduty_escalation_policy.present:
+    - profile: ${2:pagerduty}
+    - subdomain: $3
+    - api_key: $4
+  $0
+]]></content>
+<tabTrigger>pagerduty_escalation_policy.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

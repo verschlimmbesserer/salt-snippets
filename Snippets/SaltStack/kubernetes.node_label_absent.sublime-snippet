@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  kubernetes.node_label_absent:
+    - name: $2
+    - node: $3
+  $0
+]]></content>
+<tabTrigger>kubernetes.node_label_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

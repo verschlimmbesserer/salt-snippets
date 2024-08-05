@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  wordpress.installed:
+    - name: $2
+    - user: $3
+    - admin_user: $4
+    - admin_password: $5
+    - admin_email: $6
+    - title: $7
+    - url: $8
+  $0
+]]></content>
+<tabTrigger>wordpress.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

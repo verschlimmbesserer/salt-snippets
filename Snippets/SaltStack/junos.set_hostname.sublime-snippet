@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.set_hostname:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>junos.set_hostname</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

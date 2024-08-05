@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  postgres_cluster.present:
+    - version: $2
+    - name: $3
+    - port: $4
+    - encoding: $5
+    - locale: $6
+    - datadir: $7
+    - allow_group_access: $8
+    - data_checksums: $9
+    - wal_segsize: $10
+  $0
+]]></content>
+<tabTrigger>postgres_cluster.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

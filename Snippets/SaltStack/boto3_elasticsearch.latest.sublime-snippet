@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto3_elasticsearch.latest:
+    - name: $2
+    - minor_only: ${3:true}
+    - region: $4
+    - keyid: $5
+    - key: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto3_elasticsearch.latest</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

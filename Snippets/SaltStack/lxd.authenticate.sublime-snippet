@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxd.authenticate:
+    - name: $2
+    - remote_addr: $3
+    - password: $4
+    - cert: $5
+    - key: $6
+    - verify_cert: ${7:true}
+  $0
+]]></content>
+<tabTrigger>lxd.authenticate</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

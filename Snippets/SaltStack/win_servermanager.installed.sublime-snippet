@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_servermanager.installed:
+    - name: $2
+    - features: $3
+    - recurse: ${4:false}
+    - restart: ${5:false}
+    - source: $6
+    - exclude: $7
+  $0
+]]></content>
+<tabTrigger>win_servermanager.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

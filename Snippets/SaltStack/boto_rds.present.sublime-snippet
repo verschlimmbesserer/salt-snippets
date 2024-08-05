@@ -1,0 +1,52 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_rds.present:
+    - name: $2
+    - allocated_storage: $3
+    - db_instance_class: $4
+    - engine: $5
+    - master_username: $6
+    - master_user_password: $7
+    - db_name: $8
+    - storage_type: $9
+    - db_security_groups: $10
+    - vpc_security_group_ids: $11
+    - vpc_security_groups: $12
+    - availability_zone: $13
+    - db_subnet_group_name: $14
+    - preferred_maintenance_window: $15
+    - db_parameter_group_name: $16
+    - db_cluster_identifier: $17
+    - tde_credential_arn: $18
+    - tde_credential_password: $19
+    - storage_encrypted: $20
+    - kms_keyid: $21
+    - backup_retention_period: $22
+    - preferred_backup_window: $23
+    - port: $24
+    - multi_az: $25
+    - engine_version: $26
+    - auto_minor_version_upgrade: $27
+    - license_model: $28
+    - iops: $29
+    - option_group_name: $30
+    - character_set_name: $31
+    - publicly_accessible: $32
+    - wait_status: $33
+    - tags: $34
+    - copy_tags_to_snapshot: $35
+    - region: $36
+    - domain: $37
+    - key: $38
+    - keyid: $39
+    - monitoring_interval: $40
+    - monitoring_role_arn: $41
+    - domain_iam_role_name: $42
+    - promotion_tier: $43
+    - profile: $44
+  $0
+]]></content>
+<tabTrigger>boto_rds.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

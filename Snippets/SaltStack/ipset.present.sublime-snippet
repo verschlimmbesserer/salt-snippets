@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ipset.present:
+    - name: $2
+    - entry: $3
+    - family: ${4:ipv4}
+  $0
+]]></content>
+<tabTrigger>ipset.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

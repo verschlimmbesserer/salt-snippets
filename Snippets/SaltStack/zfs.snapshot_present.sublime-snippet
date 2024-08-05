@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zfs.snapshot_present:
+    - name: $2
+    - recursive: ${3:false}
+    - properties: $4
+  $0
+]]></content>
+<tabTrigger>zfs.snapshot_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

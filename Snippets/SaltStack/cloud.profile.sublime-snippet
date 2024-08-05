@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cloud.profile:
+    - name: $2
+    - profile: $3
+    - onlyif: $4
+    - unless: $5
+    - opts: $6
+  $0
+]]></content>
+<tabTrigger>cloud.profile</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

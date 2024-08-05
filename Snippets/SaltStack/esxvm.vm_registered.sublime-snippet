@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxvm.vm_registered:
+    - vm_name: $2
+    - datacenter: $3
+    - placement: $4
+    - vm_file: $5
+    - power_on: ${6:false}
+  $0
+]]></content>
+<tabTrigger>esxvm.vm_registered</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

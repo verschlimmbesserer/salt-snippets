@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  trafficserver.refresh:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>trafficserver.refresh</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  csf.testing_on:
+    - name: $2
+    - reload: ${3:false}
+  $0
+]]></content>
+<tabTrigger>csf.testing_on</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

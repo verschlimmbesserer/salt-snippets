@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_cognitoidentity.pool_present:
+    - name: $2
+    - IdentityPoolName: $3
+    - AuthenticatedRole: $4
+    - AllowUnauthenticatedIdentities: ${5:false}
+    - UnauthenticatedRole: $6
+    - SupportedLoginProviders: $7
+    - DeveloperProviderName: $8
+    - OpenIdConnectProviderARNs: $9
+    - region: $10
+    - key: $11
+    - keyid: $12
+    - profile: $13
+  $0
+]]></content>
+<tabTrigger>boto_cognitoidentity.pool_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

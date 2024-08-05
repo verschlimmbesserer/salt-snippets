@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_vpc.internet_gateway_absent:
+    - name: $2
+    - detach: ${3:false}
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto_vpc.internet_gateway_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

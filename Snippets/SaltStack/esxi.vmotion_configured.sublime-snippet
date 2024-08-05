@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxi.vmotion_configured:
+    - name: $2
+    - enabled: $3
+    - device: ${4:vmk0}
+  $0
+]]></content>
+<tabTrigger>esxi.vmotion_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

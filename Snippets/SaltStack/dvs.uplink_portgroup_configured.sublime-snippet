@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  dvs.uplink_portgroup_configured:
+    - name: $2
+    - dvs: $3
+    - uplink_portgroup: $4
+  $0
+]]></content>
+<tabTrigger>dvs.uplink_portgroup_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

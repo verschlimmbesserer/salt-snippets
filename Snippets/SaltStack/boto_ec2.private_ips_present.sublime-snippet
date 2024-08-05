@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_ec2.private_ips_present:
+    - name: $2
+    - network_interface_name: $3
+    - network_interface_id: $4
+    - private_ip_addresses: $5
+    - allow_reassignment: ${6:false}
+    - region: $7
+    - key: $8
+    - keyid: $9
+    - profile: $10
+  $0
+]]></content>
+<tabTrigger>boto_ec2.private_ips_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  kapacitor.task_present:
+    - name: $2
+    - tick_script: $3
+    - task_type: ${4:stream}
+    - database: $5
+    - retention_policy: ${6:default}
+    - enable: ${7:true}
+    - dbrps: $8
+  $0
+]]></content>
+<tabTrigger>kapacitor.task_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.tidied:
+    - name: $2
+    - age: ${3:0}
+    - matches: $4
+    - rmdirs: ${5:false}
+    - size: ${6:0}
+  $0
+]]></content>
+<tabTrigger>file.tidied</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

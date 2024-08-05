@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  eselect.set:
+    - name: $2
+    - target: $3
+    - module_parameter: $4
+    - action_parameter: $5
+  $0
+]]></content>
+<tabTrigger>eselect.set</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

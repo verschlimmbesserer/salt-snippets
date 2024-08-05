@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_ec2.volumes_tagged:
+    - name: $2
+    - tag_maps: $3
+    - authoritative: ${4:false}
+    - region: $5
+    - key: $6
+    - keyid: $7
+    - profile: $8
+  $0
+]]></content>
+<tabTrigger>boto_ec2.volumes_tagged</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

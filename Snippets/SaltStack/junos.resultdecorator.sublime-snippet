@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.resultdecorator:
+    - function: $2
+  $0
+]]></content>
+<tabTrigger>junos.resultdecorator</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

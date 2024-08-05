@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.diff:
+    - name: $2
+    - d_id: ${3:0}
+  $0
+]]></content>
+<tabTrigger>junos.diff</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

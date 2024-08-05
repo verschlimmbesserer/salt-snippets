@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.address_group_exists:
+    - name: $2
+    - groupname: $3
+    - vsys: ${4:1}
+    - members: $5
+    - description: $6
+    - commit: ${7:false}
+  $0
+]]></content>
+<tabTrigger>panos.address_group_exists</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

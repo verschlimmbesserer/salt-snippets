@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_snmp.community_names:
+    - name: $2
+    - communities: $3
+  $0
+]]></content>
+<tabTrigger>win_snmp.community_names</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

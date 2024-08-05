@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  acl.list_absent:
+    - name: $2 # The acl path
+    - acl_type: $3 # The type of the acl is used for, it can be 'user' or 'group'
+    - acl_name: ${4:} # The user or group
+    - perms: ${5:} # Remove the permissions eg.: rwx
+    - recurse: ${6:false} # Set the permissions recursive in the path
+  $0
+]]></content>
+<tabTrigger>acl.list_absent</tabTrigger>
+<description> Ensure a Linux ACL list does not exist </description>
+<scope> source.sls </scope>
+</snippet>

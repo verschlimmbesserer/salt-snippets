@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  uptime.monitored:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>uptime.monitored</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

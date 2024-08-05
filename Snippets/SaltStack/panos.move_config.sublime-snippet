@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.move_config:
+    - name: $2
+    - xpath: $3
+    - where: $4
+    - dst: $5
+    - commit: ${6:false}
+  $0
+]]></content>
+<tabTrigger>panos.move_config</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

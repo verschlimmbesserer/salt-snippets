@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  libcloud_dns.state_result:
+    - result: $2
+    - message: $3
+    - name: $4
+    - changes: $5
+  $0
+]]></content>
+<tabTrigger>libcloud_dns.state_result</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

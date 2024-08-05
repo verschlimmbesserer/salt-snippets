@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto3_route53.rr_present:
+    - name: $2
+    - HostedZoneId: $3
+    - DomainName: $4
+    - PrivateZone: ${5:false}
+    - Name: $6
+    - Type: $7
+    - SetIdentifier: $8
+    - Weight: $9
+    - Region: $10
+    - GeoLocation: $11
+    - Failover: $12
+    - TTL: $13
+    - ResourceRecords: $14
+    - AliasTarget: $15
+    - HealthCheckId: $16
+    - TrafficPolicyInstanceId: $17
+    - region: $18
+    - key: $19
+    - keyid: $20
+    - profile: $21
+  $0
+]]></content>
+<tabTrigger>boto3_route53.rr_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

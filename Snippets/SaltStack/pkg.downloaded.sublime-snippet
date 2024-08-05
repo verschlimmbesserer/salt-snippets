@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkg.downloaded:
+    - name: $2
+    - version: $3
+    - pkgs: $4
+    - fromrepo: $5
+    - ignore_epoch: $6
+  $0
+]]></content>
+<tabTrigger>pkg.downloaded</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

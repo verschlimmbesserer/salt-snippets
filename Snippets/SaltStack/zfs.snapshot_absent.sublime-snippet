@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zfs.snapshot_absent:
+    - name: $2
+    - force: ${3:false}
+    - recursive: ${4:false}
+  $0
+]]></content>
+<tabTrigger>zfs.snapshot_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

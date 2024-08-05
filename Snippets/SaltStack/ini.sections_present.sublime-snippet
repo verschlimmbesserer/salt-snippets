@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ini.sections_present:
+    - name: $2
+    - sections: $3
+    - separator: ${4:=}
+  $0
+]]></content>
+<tabTrigger>ini.sections_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

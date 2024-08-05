@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+$1
+  postgres_user.present:
+    - name: $2
+    - createdb: $3
+    - createroles: $4
+    - encrypted: $5
+    - superuser: $6
+    - replication: $7
+    - inherit: $8
+    - login: $9
+    - password: $10
+    - default_password: $11
+    - refresh_password: $12
+    - valid_until: $13
+    - groups: $14
+    - user: $15
+    - maintenance_db: $16
+    - db_password: $17
+    - db_host: $18
+    - db_port: $19
+    - db_user: $20
+  $0
+]]></content>
+<tabTrigger>postgres_user.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

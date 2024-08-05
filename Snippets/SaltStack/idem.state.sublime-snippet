@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  idem.state:
+    - name: $2
+    - sls: $3
+    - acct_file: $4
+    - acct_key: $5
+    - acct_profile: $6
+    - cache_dir: $7
+    - render: $8
+    - runtime: $9
+    - source_dir: $10
+    - test: ${11:false}
+  $0
+]]></content>
+<tabTrigger>idem.state</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

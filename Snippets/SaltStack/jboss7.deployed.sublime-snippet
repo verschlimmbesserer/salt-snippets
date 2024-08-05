@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  jboss7.deployed:
+    - name: $2
+    - jboss_config: $3
+    - salt_source: $4
+  $0
+]]></content>
+<tabTrigger>jboss7.deployed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

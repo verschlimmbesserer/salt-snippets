@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_elasticache.creategroup:
+    - name: $2
+    - primary_cluster_id: $3
+    - replication_group_description: $4
+    - wait: $5
+    - region: $6
+    - key: $7
+    - keyid: $8
+    - profile: $9
+  $0
+]]></content>
+<tabTrigger>boto_elasticache.creategroup</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

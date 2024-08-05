@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.network_interface_present:
+    - name: $2
+    - ip_configurations: $3
+    - subnet: $4
+    - virtual_network: $5
+    - resource_group: $6
+    - tags: $7
+    - virtual_machine: $8
+    - network_security_group: $9
+    - dns_settings: $10
+    - mac_address: $11
+    - primary: $12
+    - enable_accelerated_networking: $13
+    - enable_ip_forwarding: $14
+    - connection_auth: $15
+  $0
+]]></content>
+<tabTrigger>azurearm_network.network_interface_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  jboss7.reloaded:
+    - name: $2
+    - jboss_config: $3
+    - timeout: ${4:60}
+    - interval: ${5:5}
+  $0
+]]></content>
+<tabTrigger>jboss7.reloaded</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

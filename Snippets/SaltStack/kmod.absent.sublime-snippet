@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  kmod.absent:
+    - name: $2
+    - persist: ${3:false}
+    - comment: ${4:true}
+    - mods: $5
+  $0
+]]></content>
+<tabTrigger>kmod.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_resource.resource_group_present:
+    - name: $2
+    - location: $3
+    - managed_by: $4
+    - tags: $5
+    - connection_auth: $6
+  $0
+]]></content>
+<tabTrigger>azurearm_resource.resource_group_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

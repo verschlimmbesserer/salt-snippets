@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  vagrant.powered_off:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>vagrant.powered_off</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

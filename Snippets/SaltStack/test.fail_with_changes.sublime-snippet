@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  test.fail_with_changes:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>test.fail_with_changes</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  csf.nics_skip:
+    - name: $2
+    - nics: $3
+    - ipv6: $4
+  $0
+]]></content>
+<tabTrigger>csf.nics_skip</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

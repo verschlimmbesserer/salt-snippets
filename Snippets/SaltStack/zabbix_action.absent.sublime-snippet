@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zabbix_action.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>zabbix_action.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

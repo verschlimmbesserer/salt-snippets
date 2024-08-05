@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  loop.until:
+    - name: $2
+    - m_args: $3
+    - m_kwargs: $4
+    - condition: $5
+    - period: ${6:1}
+    - timeout: ${7:60}
+  $0
+]]></content>
+<tabTrigger>loop.until</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

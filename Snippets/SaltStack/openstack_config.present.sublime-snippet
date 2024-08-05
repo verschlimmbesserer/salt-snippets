@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  openstack_config.present:
+    - name: $2
+    - filename: $3
+    - section: $4
+    - value: $5
+    - parameter: $6
+  $0
+]]></content>
+<tabTrigger>openstack_config.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

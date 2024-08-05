@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  bigip.create_node:
+    - hostname: $2
+    - username: $3
+    - password: $4
+    - name: $5
+    - address: $6
+  $0
+]]></content>
+<tabTrigger>bigip.create_node</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

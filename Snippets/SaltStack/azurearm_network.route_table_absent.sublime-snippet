@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.route_table_absent:
+    - name: $2
+    - resource_group: $3
+    - connection_auth: $4
+  $0
+]]></content>
+<tabTrigger>azurearm_network.route_table_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

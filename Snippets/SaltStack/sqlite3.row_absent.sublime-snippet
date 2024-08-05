@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  sqlite3.row_absent:
+    - name: $2
+    - db: $3
+    - table: $4
+    - where_sql: $5
+    - where_args: $6
+  $0
+]]></content>
+<tabTrigger>sqlite3.row_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

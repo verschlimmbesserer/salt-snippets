@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>file.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

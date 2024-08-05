@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.not_cached:
+    - name: $2
+    - saltenv: ${3:base}
+  $0
+]]></content>
+<tabTrigger>file.not_cached</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

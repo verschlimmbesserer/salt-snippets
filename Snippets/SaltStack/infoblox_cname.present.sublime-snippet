@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  infoblox_cname.present:
+    - name: $2
+    - data: $3
+    - ensure_data: ${4:true}
+  $0
+]]></content>
+<tabTrigger>infoblox_cname.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

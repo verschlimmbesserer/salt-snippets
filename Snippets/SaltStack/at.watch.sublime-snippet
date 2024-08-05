@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  at.watch:
+    - name: $2
+    - timespec: $3
+    - tag: $4
+    - user: $5
+    - job: $6
+    - unique_tag: ${7:false}
+  $0
+]]></content>
+<tabTrigger>at.watch</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

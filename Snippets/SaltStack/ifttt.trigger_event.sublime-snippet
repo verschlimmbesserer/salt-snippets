@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ifttt.trigger_event:
+    - name: $2
+    - event: $3
+    - value1: $4
+    - value2: $5
+    - value3: $6
+  $0
+]]></content>
+<tabTrigger>ifttt.trigger_event</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

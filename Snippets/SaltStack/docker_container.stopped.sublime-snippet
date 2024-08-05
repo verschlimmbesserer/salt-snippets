@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  docker_container.stopped:
+    - name: $2
+    - containers: $3
+    - shutdown_timeout: $4
+    - unpause: ${5:false}
+    - error_on_absent: ${6:true}
+  $0
+]]></content>
+<tabTrigger>docker_container.stopped</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

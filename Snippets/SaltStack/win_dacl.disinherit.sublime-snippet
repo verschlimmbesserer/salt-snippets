@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_dacl.disinherit:
+    - name: $2
+    - objectType: $3
+    - copy_inherited_acl: ${4:true}
+  $0
+]]></content>
+<tabTrigger>win_dacl.disinherit</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

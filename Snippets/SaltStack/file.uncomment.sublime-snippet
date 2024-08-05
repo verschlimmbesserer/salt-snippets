@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.uncomment:
+    - name: $2
+    - regex: $3
+    - char: ${4:#}
+    - backup: ${5:.bak}
+  $0
+]]></content>
+<tabTrigger>file.uncomment</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

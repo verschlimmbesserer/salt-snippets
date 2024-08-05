@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+$1
+  salt.state:
+    - name: $2
+    - tgt: $3
+    - ssh: ${4:false}
+    - tgt_type: ${5:glob}
+    - ret: ${6:}
+    - ret_config: $7
+    - ret_kwargs: $8
+    - highstate: $9
+    - sls: $10
+    - top: $11
+    - saltenv: $12
+    - test: $13
+    - pillar: $14
+    - pillarenv: $15
+    - expect_minions: ${16:true}
+    - exclude: $17
+    - fail_minions: $18
+    - allow_fail: ${19:0}
+    - concurrent: ${20:false}
+    - timeout: $21
+    - batch: $22
+    - queue: ${23:false}
+    - subset: $24
+    - orchestration_jid: $25
+    - failhard: $26
+  $0
+]]></content>
+<tabTrigger>salt.state</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

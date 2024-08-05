@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mysql_query.run_file:
+    - name: $2
+    - database: $3
+    - query_file: $4
+    - output: $5
+    - grain: $6
+    - key: $7
+    - overwrite: ${8:true}
+    - saltenv: $9
+    - check_db_exists: ${10:true}
+    - client_flags: $11
+  $0
+]]></content>
+<tabTrigger>mysql_query.run_file</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  apt.held:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>apt.held</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

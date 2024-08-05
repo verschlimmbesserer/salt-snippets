@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  artifactory.downloaded:
+    - name: $2
+    - artifact: $3
+    - target_dir: ${4:/tmp}
+    - target_file: $5
+    - use_literal_group_id: ${6:false}
+  $0
+]]></content>
+<tabTrigger>artifactory.downloaded</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

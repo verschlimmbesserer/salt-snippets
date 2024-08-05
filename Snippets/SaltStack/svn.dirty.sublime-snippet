@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  svn.dirty:
+    - name: $2
+    - target: $3
+    - user: $4
+    - username: $5
+    - password: $6
+    - ignore_unversioned: ${7:false}
+  $0
+]]></content>
+<tabTrigger>svn.dirty</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

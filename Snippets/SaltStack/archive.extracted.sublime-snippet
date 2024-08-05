@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+$1
+  archive.extracted:
+    - name: $2
+    - source: $3
+    - source_hash: $4
+    - source_hash_name: $5
+    - source_hash_update: ${6:false}
+    - skip_files_list_verify: ${7:false}
+    - skip_verify: ${8:false}
+    - password: $9
+    - options: $10
+    - list_options: $11
+    - force: ${12:false}
+    - overwrite: ${13:false}
+    - clean: ${14:false}
+    - clean_parent: ${15:false}
+    - user: $16
+    - group: $17
+    - if_missing: $18
+    - trim_output: ${19:false}
+    - use_cmd_unzip: $20
+    - extract_perms: ${21:true}
+    - enforce_toplevel: ${22:true}
+    - enforce_ownership_on: $23
+    - archive_format: $24
+  $0
+]]></content>
+<tabTrigger>archive.extracted</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

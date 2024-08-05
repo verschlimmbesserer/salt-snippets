@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+$1
+  git.detached:
+    - name: $2
+    - rev: $3
+    - target: $4
+    - remote: ${5:origin}
+    - user: $6
+    - password: $7
+    - force_clone: ${8:false}
+    - force_checkout: ${9:false}
+    - fetch_remote: ${10:true}
+    - hard_reset: ${11:false}
+    - submodules: ${12:false}
+    - identity: $13
+    - https_user: $14
+    - https_pass: $15
+    - output_encoding: $16
+  $0
+]]></content>
+<tabTrigger>git.detached</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.download_software:
+    - name: $2
+    - version: $3
+    - synch: ${4:false}
+    - check: ${5:false}
+  $0
+]]></content>
+<tabTrigger>panos.download_software</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

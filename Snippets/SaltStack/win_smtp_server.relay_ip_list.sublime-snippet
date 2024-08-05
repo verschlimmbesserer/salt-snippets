@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_smtp_server.relay_ip_list:
+    - name: $2
+    - addresses: $3
+    - server: $4
+  $0
+]]></content>
+<tabTrigger>win_smtp_server.relay_ip_list</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

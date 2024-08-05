@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  openvswitch_bridge.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>openvswitch_bridge.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

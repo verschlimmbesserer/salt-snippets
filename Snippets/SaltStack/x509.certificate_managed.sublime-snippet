@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  x509.certificate_managed:
+    - name: $2
+    - days_remaining: ${3:90}
+    - append_certs: $4
+  $0
+]]></content>
+<tabTrigger>x509.certificate_managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

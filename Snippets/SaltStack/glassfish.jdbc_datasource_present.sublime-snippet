@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+$1
+  glassfish.jdbc_datasource_present:
+    - name: $2
+    - description: ${3:}
+    - enabled: ${4:true}
+    - restype: ${5:datasource}
+    - vendor: ${6:mysql}
+    - sql_url: ${7:}
+    - sql_user: ${8:}
+    - sql_password: ${9:}
+    - min_size: ${10:8}
+    - max_size: ${11:32}
+    - resize_quantity: ${12:2}
+    - idle_timeout: ${13:300}
+    - wait_timeout: ${14:60}
+    - non_transactional: ${15:false}
+    - transaction_isolation: ${16:}
+    - isolation_guaranteed: ${17:true}
+    - server: $18
+  $0
+]]></content>
+<tabTrigger>glassfish.jdbc_datasource_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

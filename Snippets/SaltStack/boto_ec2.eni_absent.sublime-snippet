@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_ec2.eni_absent:
+    - name: $2
+    - release_eip: ${3:false}
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto_ec2.eni_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

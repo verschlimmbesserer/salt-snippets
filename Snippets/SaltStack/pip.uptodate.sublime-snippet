@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pip.uptodate:
+    - name: $2
+    - bin_env: $3
+    - user: $4
+    - cwd: $5
+    - use_vt: ${6:false}
+  $0
+]]></content>
+<tabTrigger>pip.uptodate</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

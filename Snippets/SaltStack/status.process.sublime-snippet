@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  status.process:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>status.process</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

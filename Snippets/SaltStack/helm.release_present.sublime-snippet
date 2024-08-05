@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  helm.release_present:
+    - name: $2
+    - chart: $3
+    - values: $4
+    - version: $5
+    - namespace: $6
+    - set: $7
+    - flags: $8
+    - kvflags: $9
+  $0
+]]></content>
+<tabTrigger>helm.release_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

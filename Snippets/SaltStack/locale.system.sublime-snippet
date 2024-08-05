@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  locale.system:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>locale.system</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

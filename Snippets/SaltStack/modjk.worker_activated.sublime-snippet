@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  modjk.worker_activated:
+    - name: $2
+    - workers: $3
+    - profile: ${4:default}
+  $0
+]]></content>
+<tabTrigger>modjk.worker_activated</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  bigip.delete_virtual:
+    - hostname: $2
+    - username: $3
+    - password: $4
+    - name: $5
+  $0
+]]></content>
+<tabTrigger>bigip.delete_virtual</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

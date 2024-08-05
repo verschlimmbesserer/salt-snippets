@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.route_table_present:
+    - name: $2
+    - resource_group: $3
+    - tags: $4
+    - routes: $5
+    - disable_bgp_route_propagation: $6
+    - connection_auth: $7
+  $0
+]]></content>
+<tabTrigger>azurearm_network.route_table_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

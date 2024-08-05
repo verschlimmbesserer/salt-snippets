@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+$1
+  acme.cert:
+    - name: $2 # Common Name of the certificate (DNS name of certificate)
+    - aliases: $3 # aliases: subjectAltNames (Additional DNS names on certificate)
+    - email: $4 # email: e-mail address for interaction with ACME provider
+    - webroot: $5 # webroot: True or a full path to webroot. Otherwise use standalone mode
+    - test_cert: ${6:false} # test_cert: Request a certificate from the Happy Hacker Fake CA (mutually exclusive with 'server')
+    - renew: $7 # renew: True/'force' to force a renewal, or a window of renewal before expiry in days
+    - keysize: $8 # keysize: RSA key bits
+    - server: $9 # server: API endpoint to talk to
+    - owner: ${10:root} # owner of the private key file
+    - group: ${11:root} # group of the private key file
+    - mode: ${12:0640} # mode of the private key file
+    - certname: $13 # Name of the certificate to save
+    - preferred_challenges: $14 # A sorted, comma delimited list of the preferred challenge to use during authorization with the most preferred challenge listed first.
+    - tls_sni_01_port: $15 # Port used during tls-sni-01 challenge. This only affects the port Certbot listens on. A conforming ACME server will still attempt to connect on port 443.
+    - tls_sni_01_address: $16 # The address the server listens to during tls-sni-01 challenge.
+    - http_01_port: $17 # Port used in the http-01 challenge. This only affects the port Certbot listens on. A conforming ACME server will still attempt to connect on port 80.
+    - http_01_address: $18 # https_01_address: The address the server listens to during http-01 challenge.
+    - dns_plugin: $19 # Name of a DNS plugin to use (currently only 'cloudflare')
+    - dns_plugin_credentials: $20 # Path to the credentials file if required by the specified DNS plugin
+  $0
+]]></content>
+<tabTrigger>acme.cert</tabTrigger>
+<description> Obtain/renew a certificate from an ACME CA, probably Let's Encrypt. </description>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lvs_server.absent:
+    - name: $2
+    - protocol: $3
+    - service_address: $4
+    - server_address: $5
+  $0
+]]></content>
+<tabTrigger>lvs_server.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

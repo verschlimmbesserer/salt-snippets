@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.prepend:
+    - name: $2
+    - text: $3
+    - makedirs: ${4:false}
+    - source: $5
+    - source_hash: $6
+    - template: ${7:jinja}
+    - sources: $8
+    - source_hashes: $9
+    - defaults: $10
+    - context: $11
+    - header: $12
+  $0
+]]></content>
+<tabTrigger>file.prepend</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

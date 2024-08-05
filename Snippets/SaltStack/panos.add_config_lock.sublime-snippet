@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.add_config_lock:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>panos.add_config_lock</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

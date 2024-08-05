@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_dacl.present:
+    - name: $2
+    - objectType: $3
+    - user: $4
+    - permission: $5
+    - acetype: $6
+    - propagation: $7
+  $0
+]]></content>
+<tabTrigger>win_dacl.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

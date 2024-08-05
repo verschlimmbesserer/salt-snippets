@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_rds.absent:
+    - name: $2
+    - skip_final_snapshot: $3
+    - final_db_snapshot_identifier: $4
+    - tags: $5
+    - wait_for_deletion: ${6:true}
+    - timeout: ${7:180}
+    - region: $8
+    - key: $9
+    - keyid: $10
+    - profile: $11
+  $0
+]]></content>
+<tabTrigger>boto_rds.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

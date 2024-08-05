@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cisconso.value_present:
+    - name: $2
+    - datastore: $3
+    - path: $4
+    - config: $5
+  $0
+]]></content>
+<tabTrigger>cisconso.value_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

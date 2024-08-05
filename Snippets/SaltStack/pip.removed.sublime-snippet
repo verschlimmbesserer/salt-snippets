@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pip.removed:
+    - name: $2
+    - requirements: $3
+    - bin_env: $4
+    - log: $5
+    - proxy: $6
+    - timeout: $7
+    - user: $8
+    - cwd: $9
+    - use_vt: ${10:false}
+  $0
+]]></content>
+<tabTrigger>pip.removed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

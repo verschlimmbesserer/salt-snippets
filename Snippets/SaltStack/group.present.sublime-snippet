@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  group.present:
+    - name: $2
+    - gid: $3
+    - system: ${4:false}
+    - addusers: $5
+    - delusers: $6
+    - members: $7
+  $0
+]]></content>
+<tabTrigger>group.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

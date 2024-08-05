@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  keyboard.system:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>keyboard.system</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

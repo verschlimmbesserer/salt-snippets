@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkg.latest:
+    - name: $2
+    - refresh: $3
+    - fromrepo: $4
+    - skip_verify: ${5:false}
+    - pkgs: $6
+    - watch_flags: ${7:true}
+  $0
+]]></content>
+<tabTrigger>pkg.latest</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

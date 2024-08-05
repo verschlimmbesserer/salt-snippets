@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  nxos.config_present:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>nxos.config_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  glusterfs.max_op_version:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>glusterfs.max_op_version</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

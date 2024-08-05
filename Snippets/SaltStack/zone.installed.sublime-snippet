@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zone.installed:
+    - name: $2
+    - nodataset: ${3:false}
+    - brand_opts: $4
+  $0
+]]></content>
+<tabTrigger>zone.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

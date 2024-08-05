@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  event.wait:
+    - name: $2
+    - sfun: $3
+    - data: $4
+  $0
+]]></content>
+<tabTrigger>event.wait</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

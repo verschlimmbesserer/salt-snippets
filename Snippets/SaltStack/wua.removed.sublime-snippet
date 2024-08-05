@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  wua.removed:
+    - name: $2
+    - updates: $3
+  $0
+]]></content>
+<tabTrigger>wua.removed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

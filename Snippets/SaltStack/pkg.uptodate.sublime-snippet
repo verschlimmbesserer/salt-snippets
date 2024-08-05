@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkg.uptodate:
+    - name: $2
+    - refresh: ${3:false}
+    - pkgs: $4
+  $0
+]]></content>
+<tabTrigger>pkg.uptodate</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

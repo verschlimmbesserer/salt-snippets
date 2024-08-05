@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.decode:
+    - name: $2
+    - encoded_data: $3
+    - contents_pillar: $4
+    - encoding_type: ${5:base64}
+    - checksum: ${6:md5}
+  $0
+]]></content>
+<tabTrigger>file.decode</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

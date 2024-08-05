@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  beacon.present:
+    - name: $2
+    - save: ${3:false}
+  $0
+]]></content>
+<tabTrigger>beacon.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  schedule.enabled:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>schedule.enabled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

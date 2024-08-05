@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  portage_config.flags:
+    - name: $2
+    - use: $3
+    - accept_keywords: $4
+    - env: $5
+    - license: $6
+    - properties: $7
+    - unmask: ${8:false}
+    - mask: ${9:false}
+  $0
+]]></content>
+<tabTrigger>portage_config.flags</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

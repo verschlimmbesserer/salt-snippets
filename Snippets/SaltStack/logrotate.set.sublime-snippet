@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  logrotate.set:
+    - name: $2
+    - key: $3
+    - value: $4
+    - setting: $5
+    - conf_file: $6
+  $0
+]]></content>
+<tabTrigger>logrotate.set</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

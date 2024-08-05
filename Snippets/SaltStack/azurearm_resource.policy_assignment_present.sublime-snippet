@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_resource.policy_assignment_present:
+    - name: $2
+    - scope: $3
+    - definition_name: $4
+    - display_name: $5
+    - description: $6
+    - assignment_type: $7
+    - parameters: $8
+    - connection_auth: $9
+  $0
+]]></content>
+<tabTrigger>azurearm_resource.policy_assignment_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

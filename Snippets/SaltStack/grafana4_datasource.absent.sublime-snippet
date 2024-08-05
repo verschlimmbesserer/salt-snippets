@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  grafana4_datasource.absent:
+    - name: $2
+    - orgname: $3
+    - profile: ${4:grafana}
+  $0
+]]></content>
+<tabTrigger>grafana4_datasource.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

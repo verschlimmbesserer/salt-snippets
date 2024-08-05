@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.file_copy:
+    - name: $2
+    - dest: $3
+  $0
+]]></content>
+<tabTrigger>junos.file_copy</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

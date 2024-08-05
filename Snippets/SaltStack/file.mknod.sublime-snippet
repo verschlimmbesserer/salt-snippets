@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.mknod:
+    - name: $2
+    - ntype: $3
+    - major: ${4:0}
+    - minor: ${5:0}
+    - user: $6
+    - group: $7
+    - mode: ${8:0600}
+  $0
+]]></content>
+<tabTrigger>file.mknod</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

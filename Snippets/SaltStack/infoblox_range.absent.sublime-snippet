@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  infoblox_range.absent:
+    - name: $2
+    - start_addr: $3
+    - end_addr: $4
+    - data: $5
+  $0
+]]></content>
+<tabTrigger>infoblox_range.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,44 @@
+<snippet>
+  <content><![CDATA[
+$1
+  user.present:
+    - name: $2
+    - uid: $3
+    - gid: $4
+    - usergroup: $5
+    - groups: $6
+    - optional_groups: $7
+    - remove_groups: ${8:true}
+    - home: $9
+    - createhome: ${10:true}
+    - password: $11
+    - hash_password: ${12:false}
+    - enforce_password: ${13:true}
+    - empty_password: ${14:false}
+    - shell: $15
+    - unique: ${16:true}
+    - system: ${17:false}
+    - fullname: $18
+    - roomnumber: $19
+    - workphone: $20
+    - homephone: $21
+    - other: $22
+    - loginclass: $23
+    - date: $24
+    - mindays: $25
+    - maxdays: $26
+    - inactdays: $27
+    - warndays: $28
+    - expire: $29
+    - win_homedrive: $30
+    - win_profile: $31
+    - win_logonscript: $32
+    - win_description: $33
+    - nologinit: ${34:false}
+    - allow_uid_change: ${35:false}
+    - allow_gid_change: ${36:false}
+  $0
+]]></content>
+<tabTrigger>user.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

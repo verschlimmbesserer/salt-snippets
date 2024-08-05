@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  hg.latest:
+    - name: $2
+    - rev: $3
+    - target: $4
+    - clean: ${5:false}
+    - user: $6
+    - identity: $7
+    - force: ${8:false}
+    - opts: ${9:false}
+    - update_head: ${10:true}
+  $0
+]]></content>
+<tabTrigger>hg.latest</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

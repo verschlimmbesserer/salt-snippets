@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  alternatives.set:
+    - name: $2 # is the master name for this link group (e.g. pager)
+    - path: $3 # is the location of one of the alternative target files. (e.g. /usr/bin/less)
+  $0
+]]></content>
+<tabTrigger>alternatives.set</tabTrigger>
+<description></description>
+<scope> source.sls </scope>
+</snippet>

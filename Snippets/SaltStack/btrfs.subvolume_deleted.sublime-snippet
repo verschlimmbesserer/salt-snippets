@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  btrfs.subvolume_deleted:
+    - name: $2
+    - device: $3
+    - commit: ${4:false}
+    - __dest: $5
+  $0
+]]></content>
+<tabTrigger>btrfs.subvolume_deleted</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

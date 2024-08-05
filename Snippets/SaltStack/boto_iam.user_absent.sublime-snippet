@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_iam.user_absent:
+    - name: $2
+    - delete_keys: ${3:true}
+    - delete_mfa_devices: ${4:true}
+    - delete_profile: ${5:true}
+    - region: $6
+    - key: $7
+    - keyid: $8
+    - profile: $9
+  $0
+]]></content>
+<tabTrigger>boto_iam.user_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

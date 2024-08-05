@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_iis.remove_site:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>win_iis.remove_site</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

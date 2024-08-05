@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_snmp.agent_settings:
+    - name: $2
+    - contact: $3
+    - location: $4
+    - services: $5
+  $0
+]]></content>
+<tabTrigger>win_snmp.agent_settings</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

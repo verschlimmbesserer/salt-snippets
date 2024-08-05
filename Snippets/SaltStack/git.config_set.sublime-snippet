@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  git.config_set:
+    - name: $2
+    - value: $3
+    - multivar: $4
+    - repo: $5
+    - user: $6
+    - password: $7
+    - output_encoding: $8
+  $0
+]]></content>
+<tabTrigger>git.config_set</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

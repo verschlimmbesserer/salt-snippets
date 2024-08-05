@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  jboss7.datasource_exists:
+    - name: $2
+    - jboss_config: $3
+    - datasource_properties: $4
+    - recreate: ${5:false}
+    - profile: $6
+  $0
+]]></content>
+<tabTrigger>jboss7.datasource_exists</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

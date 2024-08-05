@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cabal.installed:
+    - name: $2
+    - pkgs: $3
+    - user: $4
+    - install_global: ${5:false}
+    - env: $6
+  $0
+]]></content>
+<tabTrigger>cabal.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  kernelpkg.latest_installed:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>kernelpkg.latest_installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

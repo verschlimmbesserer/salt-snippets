@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  selinux.boolean:
+    - name: $2
+    - value: $3
+    - persist: ${4:false}
+  $0
+]]></content>
+<tabTrigger>selinux.boolean</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

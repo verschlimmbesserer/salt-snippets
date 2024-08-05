@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_iam.account_policy:
+    - name: $2
+    - allow_users_to_change_password: $3
+    - hard_expiry: $4
+    - max_password_age: $5
+    - minimum_password_length: $6
+    - password_reuse_prevention: $7
+    - require_lowercase_characters: $8
+    - require_numbers: $9
+    - require_symbols: $10
+    - require_uppercase_characters: $11
+    - region: $12
+    - key: $13
+    - keyid: $14
+    - profile: $15
+  $0
+]]></content>
+<tabTrigger>boto_iam.account_policy</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.rename:
+    - name: $2
+    - source: $3
+    - force: ${4:false}
+    - makedirs: ${5:false}
+  $0
+]]></content>
+<tabTrigger>file.rename</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

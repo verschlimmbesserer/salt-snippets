@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_smtp_server.connection_ip_list:
+    - name: $2
+    - addresses: $3
+    - grant_by_default: $4
+    - server: ${5:false}
+  $0
+]]></content>
+<tabTrigger>win_smtp_server.connection_ip_list</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

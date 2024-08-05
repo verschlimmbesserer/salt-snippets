@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ipmi.power:
+    - name: ${2:power_on}
+    - wait: ${3:300}
+  $0
+]]></content>
+<tabTrigger>ipmi.power</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_smtp_server.server_setting:
+    - name: $2
+    - settings: $3
+    - server: $4
+  $0
+]]></content>
+<tabTrigger>win_smtp_server.server_setting</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

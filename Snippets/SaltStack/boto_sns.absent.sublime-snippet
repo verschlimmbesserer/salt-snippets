@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_sns.absent:
+    - name: $2
+    - region: $3
+    - key: $4
+    - keyid: $5
+    - profile: $6
+    - unsubscribe: ${7:false}
+  $0
+]]></content>
+<tabTrigger>boto_sns.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

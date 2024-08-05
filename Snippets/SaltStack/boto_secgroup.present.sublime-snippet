@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_secgroup.present:
+    - name: $2
+    - description: $3
+    - vpc_id: $4
+    - vpc_name: $5
+    - rules: $6
+    - rules_egress: $7
+    - delete_ingress_rules: ${8:true}
+    - delete_egress_rules: ${9:true}
+    - region: $10
+    - key: $11
+    - keyid: $12
+    - profile: $13
+    - tags: $14
+  $0
+]]></content>
+<tabTrigger>boto_secgroup.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

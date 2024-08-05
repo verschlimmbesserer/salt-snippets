@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  webutil.user_absent:
+    - name: $2
+    - htpasswd_file: $3
+    - runas: $4
+  $0
+]]></content>
+<tabTrigger>webutil.user_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

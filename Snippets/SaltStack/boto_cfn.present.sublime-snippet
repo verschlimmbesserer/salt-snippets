@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_cfn.present:
+    - name: $2
+    - template_body: $3
+    - template_url: $4
+    - parameters: $5
+    - notification_arns: $6
+    - disable_rollback: $7
+    - timeout_in_minutes: $8
+    - capabilities: $9
+    - tags: $10
+    - on_failure: $11
+    - stack_policy_body: $12
+    - stack_policy_url: $13
+    - use_previous_template: $14
+    - stack_policy_during_update_body: $15
+    - stack_policy_during_update_url: $16
+    - region: $17
+    - key: $18
+    - keyid: $19
+    - profile: $20
+  $0
+]]></content>
+<tabTrigger>boto_cfn.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

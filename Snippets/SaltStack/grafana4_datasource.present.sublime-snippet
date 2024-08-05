@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+$1
+  grafana4_datasource.present:
+    - name: $2
+    - type: $3
+    - url: $4
+    - access: $5
+    - user: $6
+    - password: $7
+    - database: $8
+    - basic_auth: $9
+    - basic_auth_user: $10
+    - basic_auth_password: $11
+    - tls_auth: $12
+    - json_data: $13
+    - is_default: $14
+    - with_credentials: $15
+    - type_logo_url: $16
+    - orgname: $17
+    - profile: ${18:grafana}
+  $0
+]]></content>
+<tabTrigger>grafana4_datasource.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

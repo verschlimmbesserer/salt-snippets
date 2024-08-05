@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_dns.record_set_present:
+    - name: $2
+    - zone_name: $3
+    - resource_group: $4
+    - record_type: $5
+    - if_match: $6
+    - if_none_match: $7
+    - etag: $8
+    - metadata: $9
+    - ttl: $10
+    - arecords: $11
+    - aaaa_records: $12
+    - mx_records: $13
+    - ns_records: $14
+    - ptr_records: $15
+    - srv_records: $16
+    - txt_records: $17
+    - cname_record: $18
+    - soa_record: $19
+    - caa_records: $20
+    - connection_auth: $21
+  $0
+]]></content>
+<tabTrigger>azurearm_dns.record_set_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

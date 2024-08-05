@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_kinesis.present:
+    - name: $2
+    - retention_hours: $3
+    - enhanced_monitoring: $4
+    - num_shards: $5
+    - do_reshard: ${6:true}
+    - region: $7
+    - key: $8
+    - keyid: $9
+    - profile: $10
+  $0
+]]></content>
+<tabTrigger>boto_kinesis.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

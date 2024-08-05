@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  github.present:
+    - name: $2
+    - profile: ${3:github}
+  $0
+]]></content>
+<tabTrigger>github.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

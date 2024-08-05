@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  status.loadavg:
+    - name: $2
+    - maximum: $3
+    - minimum: $4
+  $0
+]]></content>
+<tabTrigger>status.loadavg</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

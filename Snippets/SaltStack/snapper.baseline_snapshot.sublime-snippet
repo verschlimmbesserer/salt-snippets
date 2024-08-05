@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  snapper.baseline_snapshot:
+    - name: $2
+    - number: $3
+    - tag: $4
+    - include_diff: ${5:true}
+    - config: ${6:root}
+    - ignore: $7
+  $0
+]]></content>
+<tabTrigger>snapper.baseline_snapshot</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  keystone_endpoint.present:
+    - name: $2
+    - service_name: $3
+    - auth: $4
+  $0
+]]></content>
+<tabTrigger>keystone_endpoint.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

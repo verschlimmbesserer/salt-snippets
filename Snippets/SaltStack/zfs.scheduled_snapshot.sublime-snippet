@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zfs.scheduled_snapshot:
+    - name: $2
+    - prefix: $3
+    - recursive: ${4:true}
+    - schedule: $5
+  $0
+]]></content>
+<tabTrigger>zfs.scheduled_snapshot</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

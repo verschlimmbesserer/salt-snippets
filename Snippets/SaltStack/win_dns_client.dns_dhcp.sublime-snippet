@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_dns_client.dns_dhcp:
+    - name: $2
+    - interface: ${3:local area connection}
+  $0
+]]></content>
+<tabTrigger>win_dns_client.dns_dhcp</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

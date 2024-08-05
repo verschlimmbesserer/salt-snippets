@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_iam_role.absent:
+    - name: $2
+    - region: $3
+    - key: $4
+    - keyid: $5
+    - profile: $6
+  $0
+]]></content>
+<tabTrigger>boto_iam_role.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

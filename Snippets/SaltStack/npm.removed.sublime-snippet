@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  npm.removed:
+    - name: $2
+    - dir: $3
+    - user: $4
+  $0
+]]></content>
+<tabTrigger>npm.removed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

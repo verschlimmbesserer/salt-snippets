@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  selinux.module_install:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>selinux.module_install</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

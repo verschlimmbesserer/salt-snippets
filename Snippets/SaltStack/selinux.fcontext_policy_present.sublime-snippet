@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  selinux.fcontext_policy_present:
+    - name: $2
+    - sel_type: $3
+    - filetype: ${4:a}
+    - sel_user: $5
+    - sel_level: $6
+  $0
+]]></content>
+<tabTrigger>selinux.fcontext_policy_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

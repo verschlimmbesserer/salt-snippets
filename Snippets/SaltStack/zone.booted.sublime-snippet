@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zone.booted:
+    - name: $2
+    - single: ${3:false}
+  $0
+]]></content>
+<tabTrigger>zone.booted</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

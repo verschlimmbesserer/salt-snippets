@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  icinga2.generate_ticket:
+    - name: $2
+    - output: $3
+    - grain: $4
+    - key: $5
+    - overwrite: ${6:true}
+  $0
+]]></content>
+<tabTrigger>icinga2.generate_ticket</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

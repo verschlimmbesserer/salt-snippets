@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  postgres_tablespace.absent:
+    - name: $2
+    - user: $3
+    - maintenance_db: $4
+    - db_user: $5
+    - db_password: $6
+    - db_host: $7
+    - db_port: $8
+  $0
+]]></content>
+<tabTrigger>postgres_tablespace.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

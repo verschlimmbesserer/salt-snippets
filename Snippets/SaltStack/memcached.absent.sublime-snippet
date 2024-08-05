@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  memcached.absent:
+    - name: $2
+    - value: $3
+    - host: $4
+    - port: $5
+    - time: $6
+  $0
+]]></content>
+<tabTrigger>memcached.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

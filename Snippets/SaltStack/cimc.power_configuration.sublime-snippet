@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cimc.power_configuration:
+    - name: $2
+    - policy: $3
+    - delayType: $4
+    - delayValue: $5
+  $0
+]]></content>
+<tabTrigger>cimc.power_configuration</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

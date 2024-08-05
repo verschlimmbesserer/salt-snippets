@@ -1,0 +1,34 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.recurse:
+    - name: $2
+    - source: $3
+    - keep_source: ${4:true}
+    - clean: ${5:false}
+    - require: $6
+    - user: $7
+    - group: $8
+    - dir_mode: $9
+    - file_mode: $10
+    - sym_mode: $11
+    - template: $12
+    - context: $13
+    - replace: ${14:true}
+    - defaults: $15
+    - include_empty: ${16:false}
+    - backup: ${17:}
+    - include_pat: $18
+    - exclude_pat: $19
+    - maxdepth: $20
+    - keep_symlinks: ${21:false}
+    - force_symlinks: ${22:false}
+    - win_owner: $23
+    - win_perms: $24
+    - win_deny_perms: $25
+    - win_inheritance: ${26:true}
+  $0
+]]></content>
+<tabTrigger>file.recurse</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

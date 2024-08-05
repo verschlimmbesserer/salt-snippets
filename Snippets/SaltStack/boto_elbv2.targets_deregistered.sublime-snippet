@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_elbv2.targets_deregistered:
+    - name: $2
+    - targets: $3
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto_elbv2.targets_deregistered</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

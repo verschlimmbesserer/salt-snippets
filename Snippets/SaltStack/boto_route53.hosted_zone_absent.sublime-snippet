@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_route53.hosted_zone_absent:
+    - name: $2
+    - domain_name: $3
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto_route53.hosted_zone_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

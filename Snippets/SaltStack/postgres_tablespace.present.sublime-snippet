@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  postgres_tablespace.present:
+    - name: $2
+    - directory: $3
+    - options: $4
+    - owner: $5
+    - user: $6
+    - maintenance_db: $7
+    - db_password: $8
+    - db_host: $9
+    - db_port: $10
+    - db_user: $11
+  $0
+]]></content>
+<tabTrigger>postgres_tablespace.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

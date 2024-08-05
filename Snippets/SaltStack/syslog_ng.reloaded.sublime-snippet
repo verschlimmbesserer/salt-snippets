@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  syslog_ng.reloaded:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>syslog_ng.reloaded</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

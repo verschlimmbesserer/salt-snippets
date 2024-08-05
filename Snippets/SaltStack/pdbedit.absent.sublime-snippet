@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pdbedit.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>pdbedit.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

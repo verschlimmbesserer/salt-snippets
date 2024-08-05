@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cryptdev.mapped:
+    - name: $2
+    - device: $3
+    - keyfile: $4
+    - opts: $5
+    - config: ${6:/etc/crypttab}
+    - persist: ${7:true}
+    - immediate: ${8:false}
+    - match_on: ${9:name}
+  $0
+]]></content>
+<tabTrigger>cryptdev.mapped</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  smartos.vm_absent:
+    - name: $2
+    - archive: ${3:false}
+  $0
+]]></content>
+<tabTrigger>smartos.vm_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

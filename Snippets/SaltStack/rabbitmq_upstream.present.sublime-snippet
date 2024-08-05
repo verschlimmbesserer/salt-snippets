@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  rabbitmq_upstream.present:
+    - name: $2
+    - uri: $3
+    - prefetch_count: $4
+    - reconnect_delay: $5
+    - ack_mode: $6
+    - trust_user_id: $7
+    - exchange: $8
+    - max_hops: $9
+    - expires: $10
+    - message_ttl: $11
+    - ha_policy: $12
+    - queue: $13
+    - runas: $14
+  $0
+]]></content>
+<tabTrigger>rabbitmq_upstream.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

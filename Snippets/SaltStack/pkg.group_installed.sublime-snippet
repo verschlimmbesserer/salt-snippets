@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkg.group_installed:
+    - name: $2
+    - skip: $3
+    - include: $4
+  $0
+]]></content>
+<tabTrigger>pkg.group_installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

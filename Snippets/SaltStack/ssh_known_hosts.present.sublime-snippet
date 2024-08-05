@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ssh_known_hosts.present:
+    - name: $2
+    - user: $3
+    - fingerprint: $4
+    - key: $5
+    - port: $6
+    - enc: $7
+    - config: $8
+    - hash_known_hosts: ${9:true}
+    - timeout: ${10:5}
+    - fingerprint_hash_type: $11
+  $0
+]]></content>
+<tabTrigger>ssh_known_hosts.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

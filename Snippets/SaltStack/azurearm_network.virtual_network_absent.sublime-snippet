@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.virtual_network_absent:
+    - name: $2
+    - resource_group: $3
+    - connection_auth: $4
+  $0
+]]></content>
+<tabTrigger>azurearm_network.virtual_network_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

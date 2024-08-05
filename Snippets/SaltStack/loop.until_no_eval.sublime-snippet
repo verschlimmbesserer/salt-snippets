@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  loop.until_no_eval:
+    - name: $2
+    - expected: $3
+    - compare_operator: ${4:eq}
+    - timeout: ${5:60}
+    - period: ${6:1}
+    - init_wait: ${7:0}
+    - args: $8
+    - kwargs: $9
+  $0
+]]></content>
+<tabTrigger>loop.until_no_eval</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

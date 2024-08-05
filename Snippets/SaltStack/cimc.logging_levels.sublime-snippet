@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cimc.logging_levels:
+    - name: $2
+    - remote: $3
+    - local: $4
+  $0
+]]></content>
+<tabTrigger>cimc.logging_levels</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

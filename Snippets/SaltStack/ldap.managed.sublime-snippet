@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ldap.managed:
+    - name: $2
+    - entries: $3
+    - connect_spec: $4
+  $0
+]]></content>
+<tabTrigger>ldap.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

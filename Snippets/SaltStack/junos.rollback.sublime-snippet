@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.rollback:
+    - name: $2
+    - d_id: $3
+  $0
+]]></content>
+<tabTrigger>junos.rollback</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

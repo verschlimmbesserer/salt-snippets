@@ -1,0 +1,41 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_asg.present:
+    - name: $2
+    - launch_config_name: $3
+    - availability_zones: $4
+    - min_size: $5
+    - max_size: $6
+    - launch_config: $7
+    - desired_capacity: $8
+    - load_balancers: $9
+    - default_cooldown: $10
+    - health_check_type: $11
+    - health_check_period: $12
+    - placement_group: $13
+    - vpc_zone_identifier: $14
+    - subnet_names: $15
+    - tags: $16
+    - termination_policies: $17
+    - termination_policies_from_pillar: ${18:boto_asg_termination_policies}
+    - suspended_processes: $19
+    - scaling_policies: $20
+    - scaling_policies_from_pillar: ${21:boto_asg_scaling_policies}
+    - scheduled_actions: $22
+    - scheduled_actions_from_pillar: ${23:boto_asg_scheduled_actions}
+    - alarms: $24
+    - alarms_from_pillar: ${25:boto_asg_alarms}
+    - region: $26
+    - key: $27
+    - keyid: $28
+    - profile: $29
+    - notification_arn: $30
+    - notification_arn_from_pillar: ${31:boto_asg_notification_arn}
+    - notification_types: $32
+    - notification_types_from_pillar: ${33:boto_asg_notification_types}
+  $0
+]]></content>
+<tabTrigger>boto_asg.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  layman.present:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>layman.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

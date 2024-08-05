@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zpool.present:
+    - name: $2
+    - properties: $3
+    - filesystem_properties: $4
+    - layout: $5
+    - config: $6
+  $0
+]]></content>
+<tabTrigger>zpool.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

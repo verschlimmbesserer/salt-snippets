@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  kapacitor.task_absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>kapacitor.task_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

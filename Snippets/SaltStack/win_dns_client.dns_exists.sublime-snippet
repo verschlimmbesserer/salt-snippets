@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_dns_client.dns_exists:
+    - name: $2
+    - servers: $3
+    - interface: ${4:local area connection}
+    - replace: ${5:false}
+  $0
+]]></content>
+<tabTrigger>win_dns_client.dns_exists</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

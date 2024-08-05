@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  keystone.user_present:
+    - name: $2
+    - password: $3
+    - email: $4
+    - tenant: $5
+    - enabled: ${6:true}
+    - roles: $7
+    - profile: $8
+    - password_reset: ${9:true}
+    - project: $10
+  $0
+]]></content>
+<tabTrigger>keystone.user_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

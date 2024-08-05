@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  dism.package_installed:
+    - name: $2
+    - ignore_check: ${3:false}
+    - prevent_pending: ${4:false}
+    - image: $5
+    - restart: ${6:false}
+  $0
+]]></content>
+<tabTrigger>dism.package_installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

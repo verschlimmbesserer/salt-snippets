@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cyg.removed:
+    - name: $2
+    - cyg_arch: ${3:x86_64}
+    - mirrors: $4
+  $0
+]]></content>
+<tabTrigger>cyg.removed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

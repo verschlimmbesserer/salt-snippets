@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  timezone.system:
+    - name: $2
+    - utc: ${3:true}
+  $0
+]]></content>
+<tabTrigger>timezone.system</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

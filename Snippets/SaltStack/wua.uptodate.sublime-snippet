@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  wua.uptodate:
+    - name: $2
+    - software: ${3:true}
+    - drivers: ${4:false}
+    - skip_hidden: ${5:false}
+    - skip_mandatory: ${6:false}
+    - skip_reboot: ${7:true}
+    - categories: $8
+    - severities: $9
+  $0
+]]></content>
+<tabTrigger>wua.uptodate</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

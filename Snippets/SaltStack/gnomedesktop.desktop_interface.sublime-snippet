@@ -1,0 +1,47 @@
+<snippet>
+  <content><![CDATA[
+$1
+  gnomedesktop.desktop_interface:
+    - name: $2
+    - user: $3
+    - automatic_mnemonics: $4
+    - buttons_have_icons: $5
+    - can_change_accels: $6
+    - clock_format: $7
+    - clock_show_date: $8
+    - clock_show_seconds: $9
+    - cursor_blink: $10
+    - cursor_blink_time: $11
+    - cursor_blink_timeout: $12
+    - cursor_size: $13
+    - cursor_theme: $14
+    - document_font_name: $15
+    - enable_animations: $16
+    - font_name: $17
+    - gtk_color_palette: $18
+    - gtk_color_scheme: $19
+    - gtk_im_module: $20
+    - gtk_im_preedit_style: $21
+    - gtk_im_status_style: $22
+    - gtk_key_theme: $23
+    - gtk_theme: $24
+    - gtk_timeout_initial: $25
+    - gtk_timeout_repeat: $26
+    - icon_theme: $27
+    - menubar_accel: $28
+    - menubar_detachable: $29
+    - menus_have_icons: $30
+    - menus_have_tearoff: $31
+    - monospace_font_name: $32
+    - show_input_method_menu: $33
+    - show_unicode_menu: $34
+    - text_scaling_factor: $35
+    - toolbar_detachable: $36
+    - toolbar_icons_size: $37
+    - toolbar_style: $38
+    - toolkit_accessibility: $39
+  $0
+]]></content>
+<tabTrigger>gnomedesktop.desktop_interface</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

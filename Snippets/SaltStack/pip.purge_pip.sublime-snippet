@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pip.purge_pip:
+  $0
+]]></content>
+<tabTrigger>pip.purge_pip</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

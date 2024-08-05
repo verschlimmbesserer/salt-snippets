@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxcluster.cluster_configured:
+    - name: $2
+    - cluster_config: $3
+  $0
+]]></content>
+<tabTrigger>esxcluster.cluster_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

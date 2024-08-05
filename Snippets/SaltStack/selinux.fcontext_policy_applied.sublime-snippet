@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  selinux.fcontext_policy_applied:
+    - name: $2
+    - recursive: ${3:false}
+  $0
+]]></content>
+<tabTrigger>selinux.fcontext_policy_applied</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+$1
+  netconfig.saved:
+    - name: $2
+    - source: ${3:running}
+    - user: $4
+    - group: $5
+    - mode: $6
+    - attrs: $7
+    - makedirs: ${8:false}
+    - dir_mode: $9
+    - replace: ${10:true}
+    - backup: ${11:}
+    - show_changes: ${12:true}
+    - create: ${13:true}
+    - tmp_dir: ${14:}
+    - tmp_ext: ${15:}
+    - encoding: $16
+    - encoding_errors: ${17:strict}
+    - allow_empty: ${18:false}
+    - follow_symlinks: ${19:true}
+    - check_cmd: $20
+    - win_owner: $21
+    - win_perms: $22
+    - win_deny_perms: $23
+    - win_inheritance: ${24:true}
+    - win_perms_reset: ${25:false}
+  $0
+]]></content>
+<tabTrigger>netconfig.saved</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

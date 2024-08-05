@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_route53.hosted_zone_present:
+    - name: $2
+    - domain_name: $3
+    - private_zone: ${4:false}
+    - caller_ref: $5
+    - comment: ${6:}
+    - vpc_id: $7
+    - vpc_name: $8
+    - vpc_region: $9
+    - region: $10
+    - key: $11
+    - keyid: $12
+    - profile: $13
+  $0
+]]></content>
+<tabTrigger>boto_route53.hosted_zone_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

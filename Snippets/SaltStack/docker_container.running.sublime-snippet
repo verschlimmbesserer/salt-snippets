@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  docker_container.running:
+    - name: $2
+    - image: $3
+    - skip_translate: $4
+    - ignore_collisions: $5
+    - validate_ip_addrs: ${6:false}
+    - force: ${7:true}
+    - watch_action: ${8:false}
+    - start: ${9:force}
+    - shutdown_timeout: ${10:true}
+    - client_timeout: $11
+    - networks: $12
+  $0
+]]></content>
+<tabTrigger>docker_container.running</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

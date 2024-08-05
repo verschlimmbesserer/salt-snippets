@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  nfs_export.absent:
+    - name: $2
+    - exports: ${3:/etc/exports}
+  $0
+]]></content>
+<tabTrigger>nfs_export.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

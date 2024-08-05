@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  host.only:
+    - name: $2
+    - hostnames: $3
+  $0
+]]></content>
+<tabTrigger>host.only</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

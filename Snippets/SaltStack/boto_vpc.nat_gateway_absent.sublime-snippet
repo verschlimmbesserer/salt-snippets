@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_vpc.nat_gateway_absent:
+    - name: $2
+    - subnet_name: $3
+    - subnet_id: $4
+    - region: $5
+    - key: $6
+    - keyid: $7
+    - profile: $8
+    - wait_for_delete_retries: ${9:0}
+  $0
+]]></content>
+<tabTrigger>boto_vpc.nat_gateway_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  dellchassis.blade_idrac:
+    - name: $2
+    - idrac_password: $3
+    - idrac_ipmi: $4
+    - idrac_ip: $5
+    - idrac_netmask: $6
+    - idrac_gateway: $7
+    - idrac_dnsname: $8
+    - idrac_dhcp: $9
+  $0
+]]></content>
+<tabTrigger>dellchassis.blade_idrac</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

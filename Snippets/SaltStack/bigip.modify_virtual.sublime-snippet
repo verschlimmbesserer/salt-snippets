@@ -1,0 +1,52 @@
+<snippet>
+  <content><![CDATA[
+$1
+  bigip.modify_virtual:
+    - hostname: $2
+    - username: $3
+    - password: $4
+    - name: $5
+    - destination: $6
+    - pool: $7
+    - address_status: $8
+    - auto_lasthop: $9
+    - bwc_policy: $10
+    - cmp_enabled: $11
+    - connection_limit: $12
+    - dhcp_relay: $13
+    - description: $14
+    - fallback_persistence: $15
+    - flow_eviction_policy: $16
+    - gtm_score: $17
+    - ip_forward: $18
+    - ip_protocol: $19
+    - internal: $20
+    - twelve_forward: $21
+    - last_hop_pool: $22
+    - mask: $23
+    - mirror: $24
+    - nat64: $25
+    - persist: $26
+    - profiles: $27
+    - policies: $28
+    - rate_class: $29
+    - rate_limit: $30
+    - rate_limit_mode: $31
+    - rate_limit_dst: $32
+    - rate_limit_src: $33
+    - rules: $34
+    - related_rules: $35
+    - reject: $36
+    - source: $37
+    - source_address_translation: $38
+    - source_port: $39
+    - virtual_state: $40
+    - traffic_classes: $41
+    - translate_address: $42
+    - translate_port: $43
+    - vlans: $44
+  $0
+]]></content>
+<tabTrigger>bigip.modify_virtual</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

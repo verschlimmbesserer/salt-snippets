@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  btrfs.subvolume_created:
+    - name: $2
+    - device: $3
+    - qgroupids: $4
+    - set_default: ${5:false}
+    - copy_on_write: ${6:true}
+    - force_set_default: ${7:true}
+    - __dest: $8
+  $0
+]]></content>
+<tabTrigger>btrfs.subvolume_created</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

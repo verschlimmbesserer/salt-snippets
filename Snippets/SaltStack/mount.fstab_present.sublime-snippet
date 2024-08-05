@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mount.fstab_present:
+    - name: $2
+    - fs_file: $3
+    - fs_vfstype: $4
+    - fs_mntops: ${5:defaults}
+    - fs_freq: ${6:0}
+    - fs_passno: ${7:0}
+    - mount_by: $8
+    - config: ${9:/etc/fstab}
+    - mount: ${10:true}
+    - match_on: ${11:auto}
+    - not_change: ${12:false}
+    - fs_mount: ${13:true}
+  $0
+]]></content>
+<tabTrigger>mount.fstab_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_snmp.auth_traps_enabled:
+    - name: $2
+    - status: ${3:true}
+  $0
+]]></content>
+<tabTrigger>win_snmp.auth_traps_enabled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

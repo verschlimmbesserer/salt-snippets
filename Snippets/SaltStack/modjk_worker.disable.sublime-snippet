@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  modjk_worker.disable:
+    - name: $2
+    - lbn: $3
+    - target: $4
+    - profile: ${5:default}
+    - tgt_type: ${6:glob}
+  $0
+]]></content>
+<tabTrigger>modjk_worker.disable</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ethtool.offload:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>ethtool.offload</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mysql_user.absent:
+    - name: $2
+    - host: ${3:localhost}
+  $0
+]]></content>
+<tabTrigger>mysql_user.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

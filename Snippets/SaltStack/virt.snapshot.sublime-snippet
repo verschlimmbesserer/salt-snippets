@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  virt.snapshot:
+    - name: $2
+    - suffix: $3
+    - connection: $4
+    - username: $5
+    - password: $6
+  $0
+]]></content>
+<tabTrigger>virt.snapshot</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

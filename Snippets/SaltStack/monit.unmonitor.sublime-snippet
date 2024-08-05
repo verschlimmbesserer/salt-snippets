@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  monit.unmonitor:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>monit.unmonitor</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

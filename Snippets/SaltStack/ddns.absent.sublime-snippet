@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ddns.absent:
+    - name: $2
+    - zone: $3
+    - data: $4
+    - rdtype: $5
+  $0
+]]></content>
+<tabTrigger>ddns.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

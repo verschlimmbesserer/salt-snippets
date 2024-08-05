@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_elasticache.present:
+    - name: $2
+    - engine: $3
+    - cache_node_type: $4
+    - num_cache_nodes: $5
+    - preferred_availability_zone: $6
+    - port: $7
+    - cache_parameter_group_name: $8
+    - cache_security_group_names: $9
+    - replication_group_id: $10
+    - auto_minor_version_upgrade: ${11:true}
+    - security_group_ids: $12
+    - cache_subnet_group_name: $13
+    - engine_version: $14
+    - notification_topic_arn: $15
+    - preferred_maintenance_window: $16
+    - wait: $17
+    - region: $18
+    - key: $19
+    - keyid: $20
+    - profile: $21
+  $0
+]]></content>
+<tabTrigger>boto_elasticache.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+$1
+  git.latest:
+    - name: $2
+    - target: $3
+    - rev: ${4:head}
+    - branch: $5
+    - user: $6
+    - password: $7
+    - update_head: ${8:true}
+    - force_checkout: ${9:false}
+    - force_clone: ${10:false}
+    - force_fetch: ${11:false}
+    - force_reset: ${12:false}
+    - submodules: ${13:false}
+    - bare: ${14:false}
+    - mirror: ${15:false}
+    - remote: ${16:origin}
+    - fetch_tags: ${17:true}
+    - sync_tags: ${18:true}
+    - depth: $19
+    - identity: $20
+    - https_user: $21
+    - https_pass: $22
+    - refspec_branch: ${23:*}
+    - refspec_tag: ${24:*}
+    - output_encoding: $25
+  $0
+]]></content>
+<tabTrigger>git.latest</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

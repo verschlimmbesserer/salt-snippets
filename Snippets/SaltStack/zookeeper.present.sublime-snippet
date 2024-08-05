@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zookeeper.present:
+    - name: $2
+    - value: $3
+    - acls: $4
+    - ephemeral: $5
+    - sequence: ${6:false}
+    - makepath: ${7:false}
+    - version: ${8:false}
+    - profile: $9
+    - hosts: $10
+    - scheme: $11
+    - username: $12
+    - password: $13
+    - default_acl: $14
+  $0
+]]></content>
+<tabTrigger>zookeeper.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  victorops.create_event:
+    - name: $2
+    - message_type: $3
+    - routing_key: ${4:everyone}
+  $0
+]]></content>
+<tabTrigger>victorops.create_event</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  vagrant.rebooted:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>vagrant.rebooted</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

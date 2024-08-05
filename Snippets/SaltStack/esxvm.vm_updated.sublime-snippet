@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxvm.vm_updated:
+    - name: $2
+    - vm_name: $3
+    - cpu: $4
+    - memory: $5
+    - image: $6
+    - version: $7
+    - interfaces: $8
+    - disks: $9
+    - scsi_devices: $10
+    - serial_ports: $11
+    - datacenter: $12
+    - datastore: $13
+    - cd_dvd_drives: $14
+    - sata_controllers: $15
+    - advanced_configs: $16
+    - power_on: ${17:false}
+  $0
+]]></content>
+<tabTrigger>esxvm.vm_updated</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

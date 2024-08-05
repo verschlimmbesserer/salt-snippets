@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zfs.volume_present:
+    - name: $2
+    - volume_size: $3
+    - sparse: ${4:false}
+    - create_parent: ${5:false}
+    - properties: $6
+    - cloned_from: $7
+  $0
+]]></content>
+<tabTrigger>zfs.volume_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

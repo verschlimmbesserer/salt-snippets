@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  vagrant.destroyed:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>vagrant.destroyed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

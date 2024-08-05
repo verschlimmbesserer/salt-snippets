@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.accumulated:
+    - name: $2
+    - filename: $3
+    - text: $4
+  $0
+]]></content>
+<tabTrigger>file.accumulated</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

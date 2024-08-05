@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  service.masked:
+    - name: $2
+    - runtime: ${3:false}
+  $0
+]]></content>
+<tabTrigger>service.masked</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

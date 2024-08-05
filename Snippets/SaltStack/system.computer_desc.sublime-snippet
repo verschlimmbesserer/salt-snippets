@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  system.computer_desc:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>system.computer_desc</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

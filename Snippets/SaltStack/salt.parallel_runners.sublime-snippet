@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  salt.parallel_runners:
+    - name: $2
+    - runners: $3
+  $0
+]]></content>
+<tabTrigger>salt.parallel_runners</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_ec2.volume_absent:
+    - name: $2
+    - volume_name: $3
+    - volume_id: $4
+    - instance_name: $5
+    - instance_id: $6
+    - device: $7
+    - region: $8
+    - key: $9
+    - keyid: $10
+    - profile: $11
+  $0
+]]></content>
+<tabTrigger>boto_ec2.volume_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

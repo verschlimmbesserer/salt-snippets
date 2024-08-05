@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  etcd.wait_rm:
+    - name: $2
+    - recurse: ${3:false}
+    - profile: $4
+  $0
+]]></content>
+<tabTrigger>etcd.wait_rm</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

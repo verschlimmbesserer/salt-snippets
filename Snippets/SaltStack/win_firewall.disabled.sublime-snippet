@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_firewall.disabled:
+    - name: ${2:allprofiles}
+  $0
+]]></content>
+<tabTrigger>win_firewall.disabled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

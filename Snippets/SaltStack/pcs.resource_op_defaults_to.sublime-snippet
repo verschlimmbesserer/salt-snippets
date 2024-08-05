@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pcs.resource_op_defaults_to:
+    - name: $2
+    - op_default: $3
+    - value: $4
+    - extra_args: $5
+    - cibname: $6
+  $0
+]]></content>
+<tabTrigger>pcs.resource_op_defaults_to</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

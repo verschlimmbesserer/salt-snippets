@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_asg.absent:
+    - name: $2
+    - force: ${3:false}
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+    - remove_lc: ${8:false}
+  $0
+]]></content>
+<tabTrigger>boto_asg.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

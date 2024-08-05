@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mount.fstab_absent:
+    - name: $2
+    - fs_file: $3
+    - mount_by: $4
+    - config: ${5:/etc/fstab}
+  $0
+]]></content>
+<tabTrigger>mount.fstab_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

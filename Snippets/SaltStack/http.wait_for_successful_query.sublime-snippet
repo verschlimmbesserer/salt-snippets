@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  http.wait_for_successful_query:
+    - name: $2
+    - wait_for: ${3:300}
+  $0
+]]></content>
+<tabTrigger>http.wait_for_successful_query</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

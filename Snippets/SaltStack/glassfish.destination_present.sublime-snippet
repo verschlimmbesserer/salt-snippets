@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  glassfish.destination_present:
+    - name: $2
+    - physical: $3
+    - restype: ${4:queue}
+    - description: ${5:}
+    - enabled: ${6:true}
+    - server: $7
+  $0
+]]></content>
+<tabTrigger>glassfish.destination_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

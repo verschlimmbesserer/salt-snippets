@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  etcd.set:
+    - name: $2
+    - value: $3
+    - profile: $4
+  $0
+]]></content>
+<tabTrigger>etcd.set</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

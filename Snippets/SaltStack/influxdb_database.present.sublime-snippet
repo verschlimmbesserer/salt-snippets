@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  influxdb_database.present:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>influxdb_database.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

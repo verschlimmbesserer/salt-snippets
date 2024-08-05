@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_dns_client.primary_suffix:
+    - name: $2
+    - suffix: $3
+    - updates: ${4:false}
+  $0
+]]></content>
+<tabTrigger>win_dns_client.primary_suffix</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

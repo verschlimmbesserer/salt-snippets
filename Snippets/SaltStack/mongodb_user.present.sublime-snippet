@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mongodb_user.present:
+    - name: $2
+    - passwd: $3
+    - database: ${4:admin}
+    - user: $5
+    - password: $6
+    - host: ${7:localhost}
+    - port: ${8:27017}
+    - authdb: $9
+    - roles: $10
+  $0
+]]></content>
+<tabTrigger>mongodb_user.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

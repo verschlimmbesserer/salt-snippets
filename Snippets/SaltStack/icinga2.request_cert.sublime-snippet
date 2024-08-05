@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  icinga2.request_cert:
+    - name: $2
+    - master: $3
+    - ticket: $4
+    - port: ${5:5665}
+  $0
+]]></content>
+<tabTrigger>icinga2.request_cert</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

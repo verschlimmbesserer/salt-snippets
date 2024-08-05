@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  host.present:
+    - name: $2
+    - ip: $3
+    - comment: ${4:}
+    - clean: ${5:false}
+  $0
+]]></content>
+<tabTrigger>host.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

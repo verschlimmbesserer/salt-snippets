@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  chocolatey.installed:
+    - name: $2
+    - version: $3
+    - source: $4
+    - force: ${5:false}
+    - pre_versions: ${6:false}
+    - install_args: $7
+    - override_args: ${8:false}
+    - force_x86: ${9:false}
+    - package_args: $10
+    - allow_multiple: ${11:false}
+    - execution_timeout: $12
+  $0
+]]></content>
+<tabTrigger>chocolatey.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

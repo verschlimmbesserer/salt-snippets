@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxd_container.migrated:
+    - name: $2
+    - remote_addr: $3
+    - cert: $4
+    - key: $5
+    - verify_cert: $6
+    - src_remote_addr: $7
+    - stop_and_start: ${8:false}
+    - src_cert: $9
+    - src_key: $10
+    - src_verify_cert: $11
+  $0
+]]></content>
+<tabTrigger>lxd_container.migrated</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

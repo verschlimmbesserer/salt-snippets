@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkg.installed:
+    - name: $2
+    - version: $3
+    - refresh: $4
+    - fromrepo: $5
+    - skip_verify: ${6:false}
+    - skip_suggestions: ${7:false}
+    - pkgs: $8
+    - sources: $9
+    - allow_updates: ${10:false}
+    - pkg_verify: ${11:false}
+    - normalize: ${12:true}
+    - ignore_epoch: $13
+    - reinstall: ${14:false}
+    - update_holds: ${15:false}
+  $0
+]]></content>
+<tabTrigger>pkg.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

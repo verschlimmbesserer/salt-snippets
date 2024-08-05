@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zk_concurrency.unlock:
+    - name: $2
+    - zk_hosts: $3
+    - identifier: $4
+    - max_concurrency: ${5:1}
+    - ephemeral_lease: ${6:false}
+    - profile: $7
+    - scheme: $8
+    - username: $9
+    - password: $10
+    - default_acl: $11
+  $0
+]]></content>
+<tabTrigger>zk_concurrency.unlock</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

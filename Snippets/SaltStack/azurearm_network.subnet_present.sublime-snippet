@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.subnet_present:
+    - name: $2
+    - address_prefix: $3
+    - virtual_network: $4
+    - resource_group: $5
+    - security_group: $6
+    - route_table: $7
+    - connection_auth: $8
+  $0
+]]></content>
+<tabTrigger>azurearm_network.subnet_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

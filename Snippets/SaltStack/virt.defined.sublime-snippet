@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+$1
+  virt.defined:
+    - name: $2
+    - cpu: $3
+    - mem: $4
+    - vm_type: $5
+    - disk_profile: $6
+    - disks: $7
+    - nic_profile: $8
+    - interfaces: $9
+    - graphics: $10
+    - seed: ${11:true}
+    - install: ${12:true}
+    - pub_key: $13
+    - priv_key: $14
+    - connection: $15
+    - username: $16
+    - password: $17
+    - os_type: $18
+    - arch: $19
+    - boot: $20
+    - numatune: $21
+    - boot_dev: $22
+    - hypervisor_features: $23
+    - clock: $24
+    - serials: $25
+    - consoles: $26
+    - stop_on_reboot: ${27:false}
+    - live: ${28:true}
+    - host_devices: $29
+  $0
+]]></content>
+<tabTrigger>virt.defined</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

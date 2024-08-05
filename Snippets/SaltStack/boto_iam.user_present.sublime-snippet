@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_iam.user_present:
+    - name: $2
+    - policies: $3
+    - policies_from_pillars: $4
+    - managed_policies: $5
+    - password: $6
+    - path: $7
+    - region: $8
+    - key: $9
+    - keyid: $10
+    - profile: $11
+  $0
+]]></content>
+<tabTrigger>boto_iam.user_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

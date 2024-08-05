@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lvs_server.present:
+    - name: $2
+    - protocol: $3
+    - service_address: $4
+    - server_address: $5
+    - packet_forward_method: ${6:dr}
+    - weight: ${7:1}
+  $0
+]]></content>
+<tabTrigger>lvs_server.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

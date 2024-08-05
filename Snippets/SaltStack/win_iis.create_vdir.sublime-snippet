@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_iis.create_vdir:
+    - name: $2
+    - site: $3
+    - sourcepath: $4
+    - app: ${5:/}
+  $0
+]]></content>
+<tabTrigger>win_iis.create_vdir</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  kubernetes.pod_absent:
+    - name: $2
+    - namespace: ${3:default}
+  $0
+]]></content>
+<tabTrigger>kubernetes.pod_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

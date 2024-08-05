@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  nexus.downloaded:
+    - name: $2
+    - artifact: $3
+    - target_dir: ${4:/tmp}
+    - target_file: $5
+  $0
+]]></content>
+<tabTrigger>nexus.downloaded</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

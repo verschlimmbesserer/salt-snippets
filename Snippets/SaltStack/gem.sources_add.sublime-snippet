@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  gem.sources_add:
+    - name: $2
+    - ruby: $3
+    - user: $4
+  $0
+]]></content>
+<tabTrigger>gem.sources_add</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

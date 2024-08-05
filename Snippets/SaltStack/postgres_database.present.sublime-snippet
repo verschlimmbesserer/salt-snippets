@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+$1
+  postgres_database.present:
+    - name: $2
+    - tablespace: $3
+    - encoding: $4
+    - lc_collate: $5
+    - lc_ctype: $6
+    - owner: $7
+    - owner_recurse: ${8:false}
+    - template: $9
+    - user: $10
+    - maintenance_db: $11
+    - db_password: $12
+    - db_host: $13
+    - db_port: $14
+    - db_user: $15
+  $0
+]]></content>
+<tabTrigger>postgres_database.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

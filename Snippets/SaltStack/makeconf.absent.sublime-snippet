@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  makeconf.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>makeconf.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

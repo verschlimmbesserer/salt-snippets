@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pbm.default_storage_policy_assigned:
+    - name: $2
+    - policy: $3
+    - datastore: $4
+  $0
+]]></content>
+<tabTrigger>pbm.default_storage_policy_assigned</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

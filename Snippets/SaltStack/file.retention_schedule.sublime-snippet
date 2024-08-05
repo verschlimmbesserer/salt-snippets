@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.retention_schedule:
+    - name: $2
+    - retain: $3
+    - strptime_format: $4
+    - timezone: $5
+  $0
+]]></content>
+<tabTrigger>file.retention_schedule</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

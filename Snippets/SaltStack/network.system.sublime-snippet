@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  network.system:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>network.system</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

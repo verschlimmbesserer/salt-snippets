@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+{% if $1 $2 %}
+
+{% elif $3 %}
+
+{% endif %}
+  $0
+]]></content>
+<tabTrigger>elif</tabTrigger>
+<scope> source.sls, source.jinja</scope>
+</snippet>

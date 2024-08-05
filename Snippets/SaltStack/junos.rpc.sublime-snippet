@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.rpc:
+    - name: $2
+    - dest: $3
+    - format: ${4:xml}
+    - args: $5
+  $0
+]]></content>
+<tabTrigger>junos.rpc</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

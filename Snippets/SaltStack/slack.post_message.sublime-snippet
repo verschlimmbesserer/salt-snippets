@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  slack.post_message:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>slack.post_message</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

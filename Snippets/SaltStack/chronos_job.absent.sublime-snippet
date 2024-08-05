@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  chronos_job.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>chronos_job.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

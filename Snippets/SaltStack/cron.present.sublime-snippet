@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cron.present:
+    - name: $2
+    - user: ${3:root}
+    - minute: ${4:*}
+    - hour: ${5:*}
+    - daymonth: ${6:*}
+    - month: ${7:*}
+    - dayweek: ${8:*}
+    - comment: $9
+    - commented: ${10:false}
+    - identifier: ${11:false}
+    - special: $12
+  $0
+]]></content>
+<tabTrigger>cron.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

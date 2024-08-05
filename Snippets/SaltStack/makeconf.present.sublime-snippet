@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  makeconf.present:
+    - name: $2
+    - value: $3
+    - contains: $4
+    - excludes: $5
+  $0
+]]></content>
+<tabTrigger>makeconf.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

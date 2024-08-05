@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxvm.vm_cloned:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>esxvm.vm_cloned</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

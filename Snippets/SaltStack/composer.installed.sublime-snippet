@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+$1
+  composer.installed:
+    - name: $2
+    - composer: $3
+    - php: $4
+    - user: $5
+    - prefer_source: $6
+    - prefer_dist: $7
+    - no_scripts: $8
+    - no_plugins: $9
+    - optimize: $10
+    - no_dev: $11
+    - quiet: ${12:false}
+    - composer_home: ${13:/root}
+    - always_check: ${14:true}
+    - env: $15
+  $0
+]]></content>
+<tabTrigger>composer.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

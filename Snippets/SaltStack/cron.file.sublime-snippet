@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cron.file:
+    - name: $2
+    - source_hash: ${3:}
+    - source_hash_name: $4
+    - user: ${5:root}
+    - template: $6
+    - context: $7
+    - replace: ${8:true}
+    - defaults: $9
+    - backup: ${10:}
+  $0
+]]></content>
+<tabTrigger>cron.file</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

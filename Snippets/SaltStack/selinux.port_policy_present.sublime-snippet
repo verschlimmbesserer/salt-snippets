@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  selinux.port_policy_present:
+    - name: $2
+    - sel_type: $3
+    - protocol: $4
+    - port: $5
+    - sel_range: $6
+  $0
+]]></content>
+<tabTrigger>selinux.port_policy_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

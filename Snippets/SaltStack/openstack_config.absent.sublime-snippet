@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  openstack_config.absent:
+    - name: $2
+    - filename: $3
+    - section: $4
+    - parameter: $5
+  $0
+]]></content>
+<tabTrigger>openstack_config.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

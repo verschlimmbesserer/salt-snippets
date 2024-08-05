@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pcs.cib_present:
+    - name: $2
+    - cibname: $3
+    - scope: $4
+    - extra_args: $5
+  $0
+]]></content>
+<tabTrigger>pcs.cib_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zabbix_template.is_present:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>zabbix_template.is_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

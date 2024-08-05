@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  libcloud_dns.zone_absent:
+    - domain: $2
+    - profile: $3
+  $0
+]]></content>
+<tabTrigger>libcloud_dns.zone_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

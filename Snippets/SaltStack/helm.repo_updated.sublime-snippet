@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  helm.repo_updated:
+    - name: $2
+    - namespace: $3
+    - flags: $4
+    - kvflags: $5
+  $0
+]]></content>
+<tabTrigger>helm.repo_updated</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

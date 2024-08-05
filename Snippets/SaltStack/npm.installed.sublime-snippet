@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  npm.installed:
+    - name: $2
+    - pkgs: $3
+    - dir: $4
+    - user: $5
+    - force_reinstall: ${6:false}
+    - registry: $7
+    - env: $8
+  $0
+]]></content>
+<tabTrigger>npm.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

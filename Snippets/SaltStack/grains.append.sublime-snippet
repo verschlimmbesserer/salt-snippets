@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  grains.append:
+    - name: $2
+    - value: $3
+    - convert: $4
+    - delimiter: ${5:false}
+  $0
+]]></content>
+<tabTrigger>grains.append</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

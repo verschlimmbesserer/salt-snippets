@@ -1,0 +1,32 @@
+<snippet>
+  <content><![CDATA[
+$1
+  gnomedesktop.wm_preferences:
+    - name: $2
+    - user: $3
+    - action_double_click_titlebar: $4
+    - action_middle_click_titlebar: $5
+    - action_right_click_titlebar: $6
+    - application_based: $7
+    - audible_bell: $8
+    - auto_raise: $9
+    - auto_raise_delay: $10
+    - button_layout: $11
+    - disable_workarounds: $12
+    - focus_mode: $13
+    - focus_new_windows: $14
+    - mouse_button_modifier: $15
+    - num_workspaces: $16
+    - raise_on_click: $17
+    - resize_with_right_button: $18
+    - theme: $19
+    - titlebar_font: $20
+    - titlebar_uses_system_font: $21
+    - visual_bell: $22
+    - visual_bell_type: $23
+    - workspace_names: $24
+  $0
+]]></content>
+<tabTrigger>gnomedesktop.wm_preferences</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

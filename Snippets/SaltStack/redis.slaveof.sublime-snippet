@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  redis.slaveof:
+    - name: $2
+    - sentinel_host: $3
+    - sentinel_port: $4
+    - sentinel_password: $5
+  $0
+]]></content>
+<tabTrigger>redis.slaveof</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

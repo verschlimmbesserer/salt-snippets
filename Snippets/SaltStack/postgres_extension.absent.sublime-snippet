@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  postgres_extension.absent:
+    - name: $2
+    - if_exists: $3
+    - restrict: $4
+    - cascade: $5
+    - user: $6
+    - maintenance_db: $7
+    - db_user: $8
+    - db_password: $9
+    - db_host: $10
+    - db_port: $11
+  $0
+]]></content>
+<tabTrigger>postgres_extension.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

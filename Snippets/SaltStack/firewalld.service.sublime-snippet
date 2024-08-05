@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  firewalld.service:
+    - name: $2
+    - ports: $3
+    - protocols: $4
+  $0
+]]></content>
+<tabTrigger>firewalld.service</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

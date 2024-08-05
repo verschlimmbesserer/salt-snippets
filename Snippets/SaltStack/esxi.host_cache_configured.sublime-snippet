@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxi.host_cache_configured:
+    - name: $2
+    - enabled: $3
+    - datastore: $4
+    - swap_size: ${5:100%}
+    - dedicated_backing_disk: ${6:false}
+    - erase_backing_disk: ${7:false}
+  $0
+]]></content>
+<tabTrigger>esxi.host_cache_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

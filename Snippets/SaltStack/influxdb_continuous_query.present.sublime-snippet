@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  influxdb_continuous_query.present:
+    - name: $2
+    - database: $3
+    - query: $4
+    - resample_time: $5
+    - coverage_period: $6
+  $0
+]]></content>
+<tabTrigger>influxdb_continuous_query.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

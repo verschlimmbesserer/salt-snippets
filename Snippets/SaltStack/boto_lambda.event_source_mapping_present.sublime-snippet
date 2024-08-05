@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_lambda.event_source_mapping_present:
+    - name: $2
+    - EventSourceArn: $3
+    - FunctionName: $4
+    - StartingPosition: $5
+    - Enabled: ${6:true}
+    - BatchSize: ${7:100}
+    - region: $8
+    - key: $9
+    - keyid: $10
+    - profile: $11
+  $0
+]]></content>
+<tabTrigger>boto_lambda.event_source_mapping_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

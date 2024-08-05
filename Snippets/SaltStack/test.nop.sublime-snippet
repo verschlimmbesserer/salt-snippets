@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  test.nop:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>test.nop</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

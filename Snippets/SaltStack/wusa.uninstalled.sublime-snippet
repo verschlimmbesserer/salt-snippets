@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  wusa.uninstalled:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>wusa.uninstalled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

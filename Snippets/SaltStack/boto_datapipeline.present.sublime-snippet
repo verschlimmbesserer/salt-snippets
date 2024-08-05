@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_datapipeline.present:
+    - name: $2
+    - pipeline_objects: $3
+    - pipeline_objects_from_pillars: ${4:boto_datapipeline_pipeline_objects}
+    - parameter_objects: $5
+    - parameter_objects_from_pillars: ${6:boto_datapipeline_parameter_objects}
+    - parameter_values: $7
+    - parameter_values_from_pillars: ${8:boto_datapipeline_parameter_values}
+    - region: $9
+    - key: $10
+    - keyid: $11
+    - profile: $12
+  $0
+]]></content>
+<tabTrigger>boto_datapipeline.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

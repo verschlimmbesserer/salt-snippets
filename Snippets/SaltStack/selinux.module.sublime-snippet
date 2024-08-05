@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  selinux.module:
+    - name: $2
+    - module_state: ${3:enabled}
+    - version: ${4:any}
+  $0
+]]></content>
+<tabTrigger>selinux.module</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

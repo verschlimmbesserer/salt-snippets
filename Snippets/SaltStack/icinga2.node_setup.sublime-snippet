@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  icinga2.node_setup:
+    - name: $2
+    - master: $3
+    - ticket: $4
+  $0
+]]></content>
+<tabTrigger>icinga2.node_setup</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

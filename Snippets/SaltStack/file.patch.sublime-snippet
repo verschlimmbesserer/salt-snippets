@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.patch:
+    - name: $2
+    - source: $3
+    - source_hash: $4
+    - source_hash_name: $5
+    - skip_verify: ${6:false}
+    - template: $7
+    - context: $8
+    - defaults: $9
+    - options: ${10:}
+    - reject_file: $11
+    - strip: $12
+    - saltenv: $13
+  $0
+]]></content>
+<tabTrigger>file.patch</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

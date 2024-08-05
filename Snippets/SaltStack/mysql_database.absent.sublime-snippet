@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mysql_database.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>mysql_database.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

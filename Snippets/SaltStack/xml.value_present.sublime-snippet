@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  xml.value_present:
+    - name: $2
+    - xpath: $3
+    - value: $4
+  $0
+]]></content>
+<tabTrigger>xml.value_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  csf.ports_open:
+    - name: $2
+    - ports: $3
+    - proto: ${4:tcp}
+    - direction: ${5:in}
+  $0
+]]></content>
+<tabTrigger>csf.ports_open</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  influxdb_user.present:
+    - name: $2
+    - passwd: $3
+    - admin: ${4:false}
+    - grants: $5
+  $0
+]]></content>
+<tabTrigger>influxdb_user.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  grafana4_org.present:
+    - name: $2
+    - users: $3
+    - theme: $4
+    - home_dashboard_id: $5
+    - timezone: $6
+    - address1: $7
+    - address2: $8
+    - city: $9
+    - zip_code: $10
+    - address_state: $11
+    - country: $12
+    - profile: ${13:grafana}
+  $0
+]]></content>
+<tabTrigger>grafana4_org.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

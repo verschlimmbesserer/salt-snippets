@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  http.query:
+    - name: $2
+    - match: $3
+    - match_type: ${4:string}
+    - status: $5
+    - status_type: ${6:string}
+    - wait_for: $7
+  $0
+]]></content>
+<tabTrigger>http.query</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

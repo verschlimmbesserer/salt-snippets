@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  tomcat.war_deployed:
+    - name: $2
+    - war: $3
+    - force: ${4:false}
+    - url: ${5:http://localhost:8080/manager}
+    - timeout: ${6:180}
+    - temp_war_location: $7
+    - version: ${8:true}
+  $0
+]]></content>
+<tabTrigger>tomcat.war_deployed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

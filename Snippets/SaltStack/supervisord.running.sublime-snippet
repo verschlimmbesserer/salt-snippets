@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  supervisord.running:
+    - name: $2
+    - restart: ${3:false}
+    - update: ${4:false}
+    - user: $5
+    - conf_file: $6
+    - bin_env: $7
+  $0
+]]></content>
+<tabTrigger>supervisord.running</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_iis.create_apppool:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>win_iis.create_apppool</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_ec2.snapshot_created:
+    - name: $2
+    - ami_name: $3
+    - instance_name: $4
+    - wait_until_available: ${5:true}
+    - wait_timeout_seconds: ${6:300}
+  $0
+]]></content>
+<tabTrigger>boto_ec2.snapshot_created</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

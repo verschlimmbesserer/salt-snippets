@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxc.present:
+    - name: $2
+    - running: $3
+    - clone_from: $4
+    - snapshot: ${5:false}
+    - profile: $6
+    - network_profile: $7
+    - template: $8
+    - options: $9
+    - image: $10
+    - config: $11
+    - fstype: $12
+    - size: $13
+    - backing: $14
+    - vgname: $15
+    - lvname: $16
+    - thinpool: $17
+    - path: $18
+  $0
+]]></content>
+<tabTrigger>lxc.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

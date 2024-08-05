@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto3_elasticsearch.upgraded:
+    - name: $2
+    - elasticsearch_version: $3
+    - blocking: ${4:true}
+    - region: $5
+    - keyid: $6
+    - key: $7
+    - profile: $8
+  $0
+]]></content>
+<tabTrigger>boto3_elasticsearch.upgraded</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

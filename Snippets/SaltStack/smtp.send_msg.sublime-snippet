@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  smtp.send_msg:
+    - name: $2
+    - recipient: $3
+    - subject: $4
+    - sender: $5
+    - profile: $6
+    - use_ssl: ${7:true}
+    - attachments: $8
+  $0
+]]></content>
+<tabTrigger>smtp.send_msg</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

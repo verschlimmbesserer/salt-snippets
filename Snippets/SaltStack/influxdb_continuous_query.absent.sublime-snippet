@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  influxdb_continuous_query.absent:
+    - name: $2
+    - database: $3
+  $0
+]]></content>
+<tabTrigger>influxdb_continuous_query.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

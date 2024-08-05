@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zenoss.monitored:
+    - name: $2
+    - device_class: $3
+    - collector: ${4:localhost}
+    - prod_state: $5
+  $0
+]]></content>
+<tabTrigger>zenoss.monitored</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

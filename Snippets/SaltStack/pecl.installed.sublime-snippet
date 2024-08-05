@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pecl.installed:
+    - name: $2
+    - version: $3
+    - defaults: ${4:false}
+    - force: ${5:false}
+    - preferred_state: ${6:stable}
+  $0
+]]></content>
+<tabTrigger>pecl.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

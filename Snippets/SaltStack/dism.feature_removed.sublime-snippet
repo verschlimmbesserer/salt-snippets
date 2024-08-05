@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  dism.feature_removed:
+    - name: $2
+    - remove_payload: ${3:false}
+    - image: $4
+    - restart: ${5:false}
+  $0
+]]></content>
+<tabTrigger>dism.feature_removed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

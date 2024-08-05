@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cron.absent:
+    - name: $2
+    - user: ${3:root}
+    - identifier: ${4:false}
+    - special: $5
+  $0
+]]></content>
+<tabTrigger>cron.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

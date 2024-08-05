@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  assistive.installed:
+    - name: $2
+    - enabled: ${3:true}
+  $0
+]]></content>
+<tabTrigger>assistive.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

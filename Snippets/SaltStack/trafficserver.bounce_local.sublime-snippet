@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  trafficserver.bounce_local:
+    - name: $2
+    - drain: ${3:false}
+  $0
+]]></content>
+<tabTrigger>trafficserver.bounce_local</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

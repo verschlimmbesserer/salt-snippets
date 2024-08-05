@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  rsync.synchronized:
+    - name: $2
+    - source: $3
+    - delete: ${4:false}
+    - force: ${5:false}
+    - update: ${6:false}
+    - passwordfile: $7
+    - exclude: $8
+    - excludefrom: $9
+    - prepare: ${10:false}
+    - dryrun: ${11:false}
+    - additional_opts: $12
+  $0
+]]></content>
+<tabTrigger>rsync.synchronized</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

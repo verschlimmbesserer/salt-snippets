@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  virt.pool_running:
+    - name: $2
+    - ptype: $3
+    - target: $4
+    - permissions: $5
+    - source: $6
+    - transient: ${7:false}
+    - autostart: ${8:true}
+    - connection: $9
+    - username: $10
+    - password: $11
+  $0
+]]></content>
+<tabTrigger>virt.pool_running</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

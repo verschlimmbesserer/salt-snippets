@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.delete_config:
+    - name: $2
+    - xpath: $3
+    - commit: ${4:false}
+  $0
+]]></content>
+<tabTrigger>panos.delete_config</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

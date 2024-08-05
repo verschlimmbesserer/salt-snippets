@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  svn.latest:
+    - name: $2
+    - target: $3
+    - rev: $4
+    - user: $5
+    - username: $6
+    - password: $7
+    - force: ${8:false}
+    - externals: ${9:true}
+    - trust: ${10:false}
+    - trust_failures: $11
+  $0
+]]></content>
+<tabTrigger>svn.latest</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  saltutil.sync_proxymodules:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>saltutil.sync_proxymodules</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

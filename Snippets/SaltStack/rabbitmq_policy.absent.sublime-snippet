@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  rabbitmq_policy.absent:
+    - name: $2
+    - vhost: ${3:/}
+    - runas: $4
+  $0
+]]></content>
+<tabTrigger>rabbitmq_policy.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

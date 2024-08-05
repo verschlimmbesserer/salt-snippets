@@ -1,0 +1,31 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_lc.present:
+    - name: $2
+    - image_id: $3
+    - key_name: $4
+    - vpc_id: $5
+    - vpc_name: $6
+    - security_groups: $7
+    - user_data: $8
+    - cloud_init: $9
+    - instance_type: ${10:m1.small}
+    - kernel_id: $11
+    - ramdisk_id: $12
+    - block_device_mappings: $13
+    - delete_on_termination: $14
+    - instance_monitoring: ${15:false}
+    - spot_price: $16
+    - instance_profile_name: $17
+    - ebs_optimized: ${18:false}
+    - associate_public_ip_address: $19
+    - region: $20
+    - key: $21
+    - keyid: $22
+    - profile: $23
+  $0
+]]></content>
+<tabTrigger>boto_lc.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_elb.register_instances:
+    - name: $2
+    - instances: $3
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto_elb.register_instances</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

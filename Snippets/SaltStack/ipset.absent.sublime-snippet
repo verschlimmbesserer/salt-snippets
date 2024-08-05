@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ipset.absent:
+    - name: $2
+    - entry: $3
+    - entries: $4
+    - family: ${5:ipv4}
+  $0
+]]></content>
+<tabTrigger>ipset.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

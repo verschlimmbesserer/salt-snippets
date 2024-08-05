@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  chef.client:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>chef.client</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

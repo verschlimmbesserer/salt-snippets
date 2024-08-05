@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+{% if grains['$1'] $2 '$3'%}
+
+{% endif %}
+  $0
+]]></content>
+<tabTrigger>if.grains</tabTrigger>
+<scope> source.sls, source.jinja</scope>
+</snippet>

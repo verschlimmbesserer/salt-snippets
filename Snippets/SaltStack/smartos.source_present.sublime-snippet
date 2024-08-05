@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  smartos.source_present:
+    - name: $2
+    - source_type: ${3:imgapi}
+  $0
+]]></content>
+<tabTrigger>smartos.source_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_dynamodb.present:
+    - name: $2
+    - table_name: $3
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+    - read_capacity_units: $8
+    - write_capacity_units: $9
+    - alarms: $10
+    - alarms_from_pillar: ${11:boto_dynamodb_alarms}
+    - hash_key: $12
+    - hash_key_data_type: $13
+    - range_key: $14
+    - range_key_data_type: $15
+    - local_indexes: $16
+    - global_indexes: $17
+    - backup_configs_from_pillars: ${18:boto_dynamodb_backup_configs}
+  $0
+]]></content>
+<tabTrigger>boto_dynamodb.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

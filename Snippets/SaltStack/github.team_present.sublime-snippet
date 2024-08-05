@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  github.team_present:
+    - name: $2
+    - description: $3
+    - repo_names: $4
+    - privacy: ${5:secret}
+    - permission: ${6:pull}
+    - members: $7
+    - enforce_mfa: ${8:false}
+    - no_mfa_grace_seconds: ${9:0}
+    - profile: ${10:github}
+  $0
+]]></content>
+<tabTrigger>github.team_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_iot.topic_rule_absent:
+    - name: $2
+    - ruleName: $3
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto_iot.topic_rule_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

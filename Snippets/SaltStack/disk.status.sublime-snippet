@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  disk.status:
+    - name: $2
+    - maximum: $3
+    - minimum: $4
+    - absolute: ${5:false}
+    - free: ${6:false}
+  $0
+]]></content>
+<tabTrigger>disk.status</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

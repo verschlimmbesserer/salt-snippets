@@ -1,0 +1,55 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pip.installed:
+    - name: $2
+    - pkgs: $3
+    - pip_bin: $4
+    - requirements: $5
+    - bin_env: $6
+    - use_wheel: ${7:false}
+    - no_use_wheel: ${8:false}
+    - log: $9
+    - proxy: $10
+    - timeout: $11
+    - repo: $12
+    - editable: $13
+    - find_links: $14
+    - index_url: $15
+    - extra_index_url: $16
+    - no_index: ${17:false}
+    - mirrors: $18
+    - build: $19
+    - target: $20
+    - download: $21
+    - download_cache: $22
+    - source: $23
+    - upgrade: ${24:false}
+    - force_reinstall: ${25:false}
+    - ignore_installed: ${26:false}
+    - exists_action: $27
+    - no_deps: ${28:false}
+    - no_install: ${29:false}
+    - no_download: ${30:false}
+    - install_options: $31
+    - global_options: $32
+    - user: $33
+    - cwd: $34
+    - pre_releases: ${35:false}
+    - cert: $36
+    - allow_all_external: ${37:false}
+    - allow_external: $38
+    - allow_unverified: $39
+    - process_dependency_links: ${40:false}
+    - env_vars: $41
+    - use_vt: ${42:false}
+    - trusted_host: $43
+    - no_cache_dir: ${44:false}
+    - cache_dir: $45
+    - no_binary: $46
+    - extra_args: $47
+  $0
+]]></content>
+<tabTrigger>pip.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  x509.csr_managed:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>x509.csr_managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

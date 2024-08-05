@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_apigateway.present:
+    - name: $2
+    - api_name: $3
+    - swagger_file: $4
+    - stage_name: $5
+    - api_key_required: $6
+    - lambda_integration_role: $7
+    - lambda_region: $8
+    - stage_variables: $9
+    - region: $10
+    - key: $11
+    - keyid: $12
+    - profile: $13
+    - lambda_funcname_format: ${14:{stage}_{api}_{resource}_{method}}
+    - authorization_type: ${15:none}
+    - error_response_template: $16
+    - response_template: $17
+  $0
+]]></content>
+<tabTrigger>boto_apigateway.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

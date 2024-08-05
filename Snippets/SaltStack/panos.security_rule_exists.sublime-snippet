@@ -1,0 +1,37 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.security_rule_exists:
+    - name: $2
+    - rulename: $3
+    - vsys: ${4:1}
+    - action: $5
+    - disabled: $6
+    - sourcezone: $7
+    - destinationzone: $8
+    - source: $9
+    - destination: $10
+    - application: $11
+    - service: $12
+    - description: $13
+    - logsetting: $14
+    - logstart: $15
+    - logend: $16
+    - negatesource: $17
+    - negatedestination: $18
+    - profilegroup: $19
+    - datafilter: $20
+    - fileblock: $21
+    - spyware: $22
+    - urlfilter: $23
+    - virus: $24
+    - vulnerability: $25
+    - wildfire: $26
+    - move: $27
+    - movetarget: $28
+    - commit: ${29:false}
+  $0
+]]></content>
+<tabTrigger>panos.security_rule_exists</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

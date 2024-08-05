@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_vpc.route_table_present:
+    - name: $2
+    - vpc_name: $3
+    - vpc_id: $4
+    - routes: $5
+    - subnet_ids: $6
+    - subnet_names: $7
+    - tags: $8
+    - region: $9
+    - key: $10
+    - keyid: $11
+    - profile: $12
+  $0
+]]></content>
+<tabTrigger>boto_vpc.route_table_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

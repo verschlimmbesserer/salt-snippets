@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  license.activate:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>license.activate</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

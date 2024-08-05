@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mssql_database.present:
+    - name: $2
+    - containment: ${3:none}
+    - options: $4
+  $0
+]]></content>
+<tabTrigger>mssql_database.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

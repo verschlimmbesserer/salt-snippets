@@ -1,0 +1,33 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_elb.present:
+    - name: $2
+    - listeners: $3
+    - availability_zones: $4
+    - subnets: $5
+    - subnet_names: $6
+    - security_groups: $7
+    - scheme: ${8:internet-facing}
+    - health_check: $9
+    - attributes: $10
+    - attributes_from_pillar: ${11:boto_elb_attributes}
+    - cnames: $12
+    - alarms: $13
+    - alarms_from_pillar: ${14:boto_elb_alarms}
+    - policies: $15
+    - policies_from_pillar: ${16:boto_elb_policies}
+    - backends: $17
+    - region: $18
+    - key: $19
+    - keyid: $20
+    - profile: $21
+    - wait_for_sync: ${22:true}
+    - tags: $23
+    - instance_ids: $24
+    - instance_names: $25
+  $0
+]]></content>
+<tabTrigger>boto_elb.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

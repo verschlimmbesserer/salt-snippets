@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  supervisord.dead:
+    - name: $2
+    - user: $3
+    - conf_file: $4
+    - bin_env: $5
+  $0
+]]></content>
+<tabTrigger>supervisord.dead</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

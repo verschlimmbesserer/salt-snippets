@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  trafficserver.zero_cluster:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>trafficserver.zero_cluster</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

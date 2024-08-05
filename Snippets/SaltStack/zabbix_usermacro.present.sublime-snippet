@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zabbix_usermacro.present:
+    - name: $2
+    - value: $3
+    - hostid: $4
+  $0
+]]></content>
+<tabTrigger>zabbix_usermacro.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,30 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.directory:
+    - name: $2
+    - user: $3
+    - group: $4
+    - recurse: $5
+    - max_depth: $6
+    - dir_mode: $7
+    - file_mode: $8
+    - makedirs: ${9:false}
+    - clean: ${10:false}
+    - require: $11
+    - exclude_pat: $12
+    - follow_symlinks: ${13:false}
+    - force: ${14:false}
+    - backupname: $15
+    - allow_symlink: ${16:true}
+    - children_only: ${17:false}
+    - win_owner: $18
+    - win_perms: $19
+    - win_deny_perms: $20
+    - win_inheritance: ${21:true}
+    - win_perms_reset: ${22:false}
+  $0
+]]></content>
+<tabTrigger>file.directory</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

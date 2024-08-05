@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  nftables.table_present:
+    - name: $2
+    - family: ${3:ipv4}
+  $0
+]]></content>
+<tabTrigger>nftables.table_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

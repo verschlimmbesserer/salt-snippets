@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+$1
+  syslog_ng.started:
+    - name: $2
+    - user: $3
+    - group: $4
+    - chroot: $5
+    - caps: $6
+    - no_caps: ${7:false}
+    - pidfile: $8
+    - enable_core: ${9:false}
+    - fd_limit: $10
+    - verbose: ${11:false}
+    - debug: ${12:false}
+    - trace: ${13:false}
+    - yydebug: ${14:false}
+    - persist_file: $15
+    - control: $16
+    - worker_threads: $17
+    - args: ${18:args}
+  $0
+]]></content>
+<tabTrigger>syslog_ng.started</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

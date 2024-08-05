@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  apache_module.enabled:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>apache_module.enabled</tabTrigger>
+<description>Manage Apache Modules</description>
+<scope> source.sls </scope>
+</snippet>

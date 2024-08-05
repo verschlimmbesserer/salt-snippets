@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  postgres_schema.present:
+    - dbname: $2
+    - name: $3
+    - owner: $4
+    - user: $5
+    - db_user: $6
+    - db_password: $7
+    - db_host: $8
+    - db_port: $9
+  $0
+]]></content>
+<tabTrigger>postgres_schema.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

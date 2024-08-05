@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  glassfish.connection_factory_present:
+    - name: $2
+    - restype: ${3:connection_factory}
+    - description: ${4:}
+    - enabled: ${5:true}
+    - min_size: ${6:1}
+    - max_size: ${7:250}
+    - resize_quantity: ${8:2}
+    - idle_timeout: ${9:300}
+    - wait_timeout: ${10:60}
+    - reconnect_on_failure: ${11:false}
+    - transaction_support: ${12:}
+    - connection_validation: ${13:false}
+    - server: $14
+  $0
+]]></content>
+<tabTrigger>glassfish.connection_factory_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

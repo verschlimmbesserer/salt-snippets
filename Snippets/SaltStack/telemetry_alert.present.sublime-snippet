@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  telemetry_alert.present:
+    - name: $2
+    - deployment_id: $3
+    - metric_name: $4
+    - alert_config: $5
+    - api_key: $6
+    - profile: ${7:telemetry}
+  $0
+]]></content>
+<tabTrigger>telemetry_alert.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cabal.removed:
+    - name: $2
+    - user: $3
+    - env: $4
+  $0
+]]></content>
+<tabTrigger>cabal.removed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

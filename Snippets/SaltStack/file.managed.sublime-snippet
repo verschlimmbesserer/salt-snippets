@@ -1,0 +1,47 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.managed:
+    - name: $2
+    - source: $3
+    - source_hash: ${4:}
+    - source_hash_name: $5
+    - keep_source: ${6:true}
+    - user: $7
+    - group: $8
+    - mode: $9
+    - attrs: $10
+    - template: $11
+    - makedirs: ${12:false}
+    - dir_mode: $13
+    - context: $14
+    - replace: ${15:true}
+    - defaults: $16
+    - backup: ${17:}
+    - show_changes: ${18:true}
+    - create: ${19:true}
+    - contents: $20
+    - tmp_dir: ${21:}
+    - tmp_ext: ${22:}
+    - contents_pillar: $23
+    - contents_grains: $24
+    - contents_newline: ${25:true}
+    - contents_delimiter: ${26::}
+    - encoding: $27
+    - encoding_errors: ${28:strict}
+    - allow_empty: ${29:true}
+    - follow_symlinks: ${30:true}
+    - check_cmd: $31
+    - skip_verify: ${32:false}
+    - selinux: $33
+    - win_owner: $34
+    - win_perms: $35
+    - win_deny_perms: $36
+    - win_inheritance: ${37:true}
+    - win_perms_reset: ${38:false}
+    - verify_ssl: ${39:true}
+  $0
+]]></content>
+<tabTrigger>file.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

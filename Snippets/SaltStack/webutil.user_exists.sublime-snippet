@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  webutil.user_exists:
+    - name: $2
+    - password: $3
+    - htpasswd_file: $4
+    - options: ${5:}
+    - force: ${6:false}
+    - runas: $7
+    - update: ${8:false}
+  $0
+]]></content>
+<tabTrigger>webutil.user_exists</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

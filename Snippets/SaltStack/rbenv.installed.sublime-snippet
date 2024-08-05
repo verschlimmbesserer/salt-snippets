@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  rbenv.installed:
+    - name: $2
+    - default: ${3:false}
+    - user: $4
+  $0
+]]></content>
+<tabTrigger>rbenv.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

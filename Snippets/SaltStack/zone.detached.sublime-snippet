@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zone.detached:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>zone.detached</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

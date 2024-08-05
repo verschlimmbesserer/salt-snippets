@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.get_table:
+    - name: $2
+    - table: $3
+    - table_file: $4
+  $0
+]]></content>
+<tabTrigger>junos.get_table</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

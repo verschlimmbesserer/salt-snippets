@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  xmpp.send_msg_multi:
+    - name: $2
+    - profile: $3
+    - recipients: $4
+    - rooms: $5
+  $0
+]]></content>
+<tabTrigger>xmpp.send_msg_multi</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

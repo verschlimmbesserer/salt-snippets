@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  event.send:
+    - name: $2
+    - data: $3
+    - preload: $4
+    - with_env: ${5:false}
+    - with_grains: ${6:false}
+    - with_pillar: ${7:false}
+    - show_changed: ${8:true}
+  $0
+]]></content>
+<tabTrigger>event.send</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

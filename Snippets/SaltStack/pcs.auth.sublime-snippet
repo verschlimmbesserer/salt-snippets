@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pcs.auth:
+    - name: $2
+    - nodes: $3
+    - pcsuser: ${4:hacluster}
+    - pcspasswd: ${5:hacluster}
+    - extra_args: $6
+  $0
+]]></content>
+<tabTrigger>pcs.auth</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

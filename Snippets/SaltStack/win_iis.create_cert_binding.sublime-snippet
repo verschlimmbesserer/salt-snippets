@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_iis.create_cert_binding:
+    - name: $2
+    - site: $3
+    - hostheader: ${4:}
+    - ipaddress: ${5:*}
+    - port: ${6:443}
+    - sslflags: ${7:0}
+  $0
+]]></content>
+<tabTrigger>win_iis.create_cert_binding</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

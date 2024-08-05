@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  macdefaults.absent:
+    - name: $2
+    - domain: $3
+    - user: $4
+  $0
+]]></content>
+<tabTrigger>macdefaults.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

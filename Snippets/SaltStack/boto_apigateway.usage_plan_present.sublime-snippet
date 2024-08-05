@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_apigateway.usage_plan_present:
+    - name: $2
+    - plan_name: $3
+    - description: $4
+    - throttle: $5
+    - quota: $6
+    - region: $7
+    - key: $8
+    - keyid: $9
+    - profile: $10
+  $0
+]]></content>
+<tabTrigger>boto_apigateway.usage_plan_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

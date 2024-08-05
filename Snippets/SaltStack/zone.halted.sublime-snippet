@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zone.halted:
+    - name: $2
+    - graceful: ${3:true}
+  $0
+]]></content>
+<tabTrigger>zone.halted</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

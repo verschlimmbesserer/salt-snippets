@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  keystone.endpoint_present:
+    - name: $2
+    - publicurl: $3
+    - internalurl: $4
+    - adminurl: $5
+    - region: $6
+    - profile: $7
+    - url: $8
+    - interface: $9
+  $0
+]]></content>
+<tabTrigger>keystone.endpoint_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_cloudtrail.present:
+    - name: $2
+    - Name: $3
+    - S3BucketName: $4
+    - S3KeyPrefix: $5
+    - SnsTopicName: $6
+    - IncludeGlobalServiceEvents: ${7:true}
+    - IsMultiRegionTrail: $8
+    - EnableLogFileValidation: ${9:false}
+    - CloudWatchLogsLogGroupArn: $10
+    - CloudWatchLogsRoleArn: $11
+    - KmsKeyId: $12
+    - LoggingEnabled: ${13:true}
+    - Tags: $14
+    - region: $15
+    - key: $16
+    - keyid: $17
+    - profile: $18
+  $0
+]]></content>
+<tabTrigger>boto_cloudtrail.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

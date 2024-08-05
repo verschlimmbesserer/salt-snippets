@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_pki.import_cert:
+    - name: $2
+    - cert_format: $3
+    - context: $4
+    - store: $5
+    - exportable: ${6:true}
+    - password: ${7:}
+    - saltenv: ${8:base}
+  $0
+]]></content>
+<tabTrigger>win_pki.import_cert</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

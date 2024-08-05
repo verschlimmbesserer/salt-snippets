@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+{% for ${1:key} ${2:value} in ${3:dict}.items() %}
+
+{% endfor %}
+  $0
+]]></content>
+<tabTrigger>elif</tabTrigger>
+<scope> source.sls, source.jinja</scope>
+</snippet>

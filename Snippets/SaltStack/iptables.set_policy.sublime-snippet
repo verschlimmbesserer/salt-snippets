@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  iptables.set_policy:
+    - name: $2
+    - table: ${3:filter}
+    - family: ${4:ipv4}
+  $0
+]]></content>
+<tabTrigger>iptables.set_policy</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

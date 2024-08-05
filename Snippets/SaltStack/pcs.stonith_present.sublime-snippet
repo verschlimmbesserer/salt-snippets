@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pcs.stonith_present:
+    - name: $2
+    - stonith_id: $3
+    - stonith_device_type: $4
+    - stonith_device_options: $5
+    - cibname: $6
+  $0
+]]></content>
+<tabTrigger>pcs.stonith_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

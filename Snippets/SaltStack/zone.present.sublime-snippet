@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zone.present:
+    - name: $2
+    - brand: $3
+    - zonepath: $4
+    - properties: $5
+    - resources: $6
+  $0
+]]></content>
+<tabTrigger>zone.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

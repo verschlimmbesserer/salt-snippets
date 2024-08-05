@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  glassfish.system_properties_present:
+    - server: $2
+  $0
+]]></content>
+<tabTrigger>glassfish.system_properties_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

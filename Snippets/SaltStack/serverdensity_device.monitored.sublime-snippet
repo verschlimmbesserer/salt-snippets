@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  serverdensity_device.monitored:
+    - name: $2
+    - group: $3
+    - salt_name: ${4:true}
+    - salt_params: ${5:true}
+    - agent_version: ${6:1}
+  $0
+]]></content>
+<tabTrigger>serverdensity_device.monitored</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

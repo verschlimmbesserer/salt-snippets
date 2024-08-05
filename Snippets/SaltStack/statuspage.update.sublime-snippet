@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  statuspage.update:
+    - name: $2
+    - endpoint: ${3:incidents}
+    - id: $4
+    - api_url: $5
+    - page_id: $6
+    - api_key: $7
+    - api_version: $8
+  $0
+]]></content>
+<tabTrigger>statuspage.update</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

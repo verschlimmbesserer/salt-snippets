@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  btrfs.properties:
+    - name: $2
+    - device: $3
+    - use_default: ${4:false}
+    - __dest: $5
+  $0
+]]></content>
+<tabTrigger>btrfs.properties</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

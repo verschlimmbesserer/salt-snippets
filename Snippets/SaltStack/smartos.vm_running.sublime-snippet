@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  smartos.vm_running:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>smartos.vm_running</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

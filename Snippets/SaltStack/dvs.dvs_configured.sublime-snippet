@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  dvs.dvs_configured:
+    - name: $2
+    - dvs: $3
+  $0
+]]></content>
+<tabTrigger>dvs.dvs_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

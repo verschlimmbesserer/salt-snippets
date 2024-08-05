@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  rdp.enabled:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>rdp.enabled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

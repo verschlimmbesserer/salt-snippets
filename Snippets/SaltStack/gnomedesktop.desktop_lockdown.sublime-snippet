@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  gnomedesktop.desktop_lockdown:
+    - name: $2
+    - user: $3
+    - disable_application_handlers: $4
+    - disable_command_line: $5
+    - disable_lock_screen: $6
+    - disable_log_out: $7
+    - disable_print_setup: $8
+    - disable_printing: $9
+    - disable_save_to_disk: $10
+    - disable_user_switching: $11
+    - user_administration_disabled: $12
+  $0
+]]></content>
+<tabTrigger>gnomedesktop.desktop_lockdown</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

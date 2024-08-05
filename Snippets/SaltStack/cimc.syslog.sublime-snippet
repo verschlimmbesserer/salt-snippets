@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cimc.syslog:
+    - name: $2
+    - primary: $3
+    - secondary: $4
+  $0
+]]></content>
+<tabTrigger>cimc.syslog</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

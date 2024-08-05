@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_rds.replica_present:
+    - name: $2
+    - source: $3
+    - db_instance_class: $4
+    - availability_zone: $5
+    - port: $6
+    - auto_minor_version_upgrade: $7
+    - iops: $8
+    - option_group_name: $9
+    - publicly_accessible: $10
+    - tags: $11
+    - region: $12
+    - key: $13
+    - keyid: $14
+    - profile: $15
+    - db_parameter_group_name: $16
+  $0
+]]></content>
+<tabTrigger>boto_rds.replica_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

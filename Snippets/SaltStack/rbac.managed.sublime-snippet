@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  rbac.managed:
+    - name: $2
+    - roles: $3
+    - profiles: $4
+    - authorizations: $5
+  $0
+]]></content>
+<tabTrigger>rbac.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

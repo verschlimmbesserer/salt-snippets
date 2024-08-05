@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  nftables.delete:
+    - name: $2
+    - family: ${3:ipv4}
+  $0
+]]></content>
+<tabTrigger>nftables.delete</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

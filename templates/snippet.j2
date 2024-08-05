@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  {{ module }}.{{ func }}:
+  {%- for arg, value in args.items() %}
+  {%- if value is none %}
+    - {{ arg }}: ${{ loop.index + 1}}
+  {%- elif arg == "kwargs" %}
+  {%- else %}
+    - {{ arg }}: ${{'{'}}{{  + loop.index + 1  }}:{{ value | lower }}{{'}'}}
+  {%- endif  %}
+  {%- endfor %}
+  $0
+]]></content>
+<tabTrigger>{{ module }}.{{ func }}</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

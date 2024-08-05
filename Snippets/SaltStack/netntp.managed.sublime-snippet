@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  netntp.managed:
+    - name: $2
+    - peers: $3
+    - servers: $4
+  $0
+]]></content>
+<tabTrigger>netntp.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

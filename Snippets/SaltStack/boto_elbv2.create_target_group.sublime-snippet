@@ -1,0 +1,24 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_elbv2.create_target_group:
+    - name: $2
+    - protocol: $3
+    - port: $4
+    - vpc_id: $5
+    - region: $6
+    - key: $7
+    - keyid: $8
+    - profile: $9
+    - health_check_protocol: ${10:http}
+    - health_check_port: ${11:traffic-port}
+    - health_check_path: ${12:/}
+    - health_check_interval_seconds: ${13:30}
+    - health_check_timeout_seconds: ${14:5}
+    - healthy_threshold_count: ${15:5}
+    - unhealthy_threshold_count: ${16:2}
+  $0
+]]></content>
+<tabTrigger>boto_elbv2.create_target_group</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

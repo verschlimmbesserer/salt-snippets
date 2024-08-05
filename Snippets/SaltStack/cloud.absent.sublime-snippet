@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cloud.absent:
+    - name: $2
+    - onlyif: $3
+    - unless: $4
+  $0
+]]></content>
+<tabTrigger>cloud.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

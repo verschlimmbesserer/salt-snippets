@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkg.purged:
+    - name: $2
+    - version: $3
+    - pkgs: $4
+    - normalize: ${5:true}
+    - ignore_epoch: $6
+  $0
+]]></content>
+<tabTrigger>pkg.purged</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

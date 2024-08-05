@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkgbuild.repo:
+    - name: $2
+    - keyid: $3
+    - env: $4
+    - use_passphrase: ${5:false}
+    - gnupghome: ${6:/etc/salt/gpgkeys}
+    - runas: ${7:builder}
+    - timeout: ${8:15.0}
+  $0
+]]></content>
+<tabTrigger>pkgbuild.repo</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

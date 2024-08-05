@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  glusterfs.started:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>glusterfs.started</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

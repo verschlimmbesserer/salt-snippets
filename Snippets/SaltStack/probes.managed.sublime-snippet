@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  probes.managed:
+    - name: $2
+    - probes: $3
+    - defaults: $4
+  $0
+]]></content>
+<tabTrigger>probes.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

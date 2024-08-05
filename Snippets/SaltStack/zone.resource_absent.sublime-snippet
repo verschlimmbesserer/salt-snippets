@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zone.resource_absent:
+    - name: $2
+    - resource_type: $3
+    - resource_selector_property: $4
+    - resource_selector_value: $5
+  $0
+]]></content>
+<tabTrigger>zone.resource_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

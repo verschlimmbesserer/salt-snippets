@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_vpc.accept_vpc_peering_connection:
+    - name: $2
+    - conn_id: $3
+    - conn_name: $4
+    - region: $5
+    - key: $6
+    - keyid: $7
+    - profile: $8
+  $0
+]]></content>
+<tabTrigger>boto_vpc.accept_vpc_peering_connection</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

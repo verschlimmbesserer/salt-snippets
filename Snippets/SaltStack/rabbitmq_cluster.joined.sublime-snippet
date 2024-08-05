@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  rabbitmq_cluster.joined:
+    - name: $2
+    - host: $3
+    - user: ${4:rabbit}
+    - ram_node: $5
+    - runas: ${6:root}
+  $0
+]]></content>
+<tabTrigger>rabbitmq_cluster.joined</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

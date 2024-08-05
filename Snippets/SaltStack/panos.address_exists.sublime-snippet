@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.address_exists:
+    - name: $2
+    - addressname: $3
+    - vsys: ${4:1}
+    - ipnetmask: $5
+    - iprange: $6
+    - fqdn: $7
+    - description: $8
+    - commit: ${9:false}
+  $0
+]]></content>
+<tabTrigger>panos.address_exists</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

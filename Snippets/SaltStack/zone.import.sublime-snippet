@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zone.import:
+    - name: $2
+    - path: $3
+    - mode: ${4:import}
+    - nodataset: ${5:false}
+    - brand_opts: $6
+  $0
+]]></content>
+<tabTrigger>zone.import</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

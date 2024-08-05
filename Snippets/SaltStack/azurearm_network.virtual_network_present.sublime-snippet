@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.virtual_network_present:
+    - name: $2
+    - address_prefixes: $3
+    - resource_group: $4
+    - dns_servers: $5
+    - tags: $6
+    - connection_auth: $7
+  $0
+]]></content>
+<tabTrigger>azurearm_network.virtual_network_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  keychain.default_keychain:
+    - name: $2
+    - domain: ${3:user}
+    - user: $4
+  $0
+]]></content>
+<tabTrigger>keychain.default_keychain</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

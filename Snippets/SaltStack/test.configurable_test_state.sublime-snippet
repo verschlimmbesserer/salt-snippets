@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  test.configurable_test_state:
+    - name: $2
+    - changes: ${3:true}
+    - result: ${4:true}
+    - comment: ${5:}
+    - warnings: $6
+  $0
+]]></content>
+<tabTrigger>test.configurable_test_state</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

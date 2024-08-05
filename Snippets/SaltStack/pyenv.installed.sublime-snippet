@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pyenv.installed:
+    - name: $2
+    - default: ${3:false}
+    - user: $4
+  $0
+]]></content>
+<tabTrigger>pyenv.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

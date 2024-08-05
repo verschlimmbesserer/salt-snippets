@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.symlink:
+    - name: $2
+    - target: $3
+    - force: ${4:false}
+    - backupname: $5
+    - makedirs: ${6:false}
+    - user: $7
+    - group: $8
+    - mode: $9
+    - win_owner: $10
+    - win_perms: $11
+    - win_deny_perms: $12
+    - win_inheritance: $13
+  $0
+]]></content>
+<tabTrigger>file.symlink</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

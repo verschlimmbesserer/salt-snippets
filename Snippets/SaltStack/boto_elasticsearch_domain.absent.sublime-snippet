@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_elasticsearch_domain.absent:
+    - name: $2
+    - DomainName: $3
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto_elasticsearch_domain.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

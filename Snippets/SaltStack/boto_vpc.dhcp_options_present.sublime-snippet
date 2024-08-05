@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_vpc.dhcp_options_present:
+    - name: $2
+    - dhcp_options_id: $3
+    - vpc_name: $4
+    - vpc_id: $5
+    - domain_name: $6
+    - domain_name_servers: $7
+    - ntp_servers: $8
+    - netbios_name_servers: $9
+    - netbios_node_type: $10
+    - tags: $11
+    - region: $12
+    - key: $13
+    - keyid: $14
+    - profile: $15
+  $0
+]]></content>
+<tabTrigger>boto_vpc.dhcp_options_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

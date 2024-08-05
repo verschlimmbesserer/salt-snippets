@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  blockdev.tuned:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>blockdev.tuned</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

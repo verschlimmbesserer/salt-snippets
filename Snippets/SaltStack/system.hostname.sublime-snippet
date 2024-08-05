@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  system.hostname:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>system.hostname</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

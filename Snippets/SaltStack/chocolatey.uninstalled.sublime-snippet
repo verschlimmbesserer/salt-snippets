@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  chocolatey.uninstalled:
+    - name: $2
+    - version: $3
+    - uninstall_args: $4
+    - override_args: ${5:false}
+  $0
+]]></content>
+<tabTrigger>chocolatey.uninstalled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_lambda.alias_absent:
+    - name: $2
+    - FunctionName: $3
+    - Name: $4
+    - region: $5
+    - key: $6
+    - keyid: $7
+    - profile: $8
+  $0
+]]></content>
+<tabTrigger>boto_lambda.alias_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

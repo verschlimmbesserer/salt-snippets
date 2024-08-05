@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.shutdown:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>junos.shutdown</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

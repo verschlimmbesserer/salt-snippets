@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  gem.installed:
+    - name: $2
+    - ruby: $3
+    - gem_bin: $4
+    - user: $5
+    - version: $6
+    - rdoc: ${7:false}
+    - ri: ${8:false}
+    - pre_releases: ${9:false}
+    - proxy: $10
+    - source: $11
+  $0
+]]></content>
+<tabTrigger>gem.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

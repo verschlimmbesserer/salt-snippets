@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  github.repo_present:
+    - name: $2
+    - description: $3
+    - homepage: $4
+    - private: $5
+    - has_issues: $6
+    - has_wiki: $7
+    - has_downloads: $8
+    - auto_init: ${9:false}
+    - gitignore_template: $10
+    - license_template: $11
+    - teams: $12
+    - profile: ${13:github}
+  $0
+]]></content>
+<tabTrigger>github.repo_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

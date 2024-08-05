@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_iis.container_setting:
+    - name: $2
+    - container: $3
+    - settings: $4
+  $0
+]]></content>
+<tabTrigger>win_iis.container_setting</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

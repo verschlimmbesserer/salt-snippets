@@ -1,0 +1,25 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_ec2.volume_present:
+    - name: $2
+    - volume_name: $3
+    - volume_id: $4
+    - instance_name: $5
+    - instance_id: $6
+    - device: $7
+    - size: $8
+    - snapshot_id: $9
+    - volume_type: $10
+    - iops: $11
+    - encrypted: ${12:false}
+    - kms_key_id: $13
+    - region: $14
+    - key: $15
+    - keyid: $16
+    - profile: $17
+  $0
+]]></content>
+<tabTrigger>boto_ec2.volume_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

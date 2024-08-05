@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_iis.deployed:
+    - name: $2
+    - sourcepath: $3
+    - apppool: ${4:}
+    - hostheader: ${5:}
+    - ipaddress: ${6:*}
+    - port: ${7:80}
+    - protocol: ${8:http}
+  $0
+]]></content>
+<tabTrigger>win_iis.deployed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

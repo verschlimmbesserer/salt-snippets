@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  gpg.present:
+    - name: $2
+    - keys: $3
+    - user: $4
+    - keyserver: $5
+    - gnupghome: $6
+    - trust: $7
+  $0
+]]></content>
+<tabTrigger>gpg.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

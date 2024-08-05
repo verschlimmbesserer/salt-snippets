@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_dacl.inherit:
+    - name: $2
+    - objectType: $3
+    - clear_existing_acl: ${4:false}
+  $0
+]]></content>
+<tabTrigger>win_dacl.inherit</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

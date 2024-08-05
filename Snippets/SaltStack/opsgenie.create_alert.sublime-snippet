@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  opsgenie.create_alert:
+    - name: $2
+    - api_key: $3
+    - reason: $4
+    - action_type: ${5:create}
+  $0
+]]></content>
+<tabTrigger>opsgenie.create_alert</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

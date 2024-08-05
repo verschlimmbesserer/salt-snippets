@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxc.edited_conf:
+    - name: $2
+    - lxc_conf: $3
+    - lxc_conf_unset: $4
+  $0
+]]></content>
+<tabTrigger>lxc.edited_conf</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

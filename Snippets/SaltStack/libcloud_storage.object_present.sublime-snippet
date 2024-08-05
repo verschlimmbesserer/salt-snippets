@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  libcloud_storage.object_present:
+    - container: $2
+    - name: $3
+    - path: $4
+    - profile: $5
+  $0
+]]></content>
+<tabTrigger>libcloud_storage.object_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

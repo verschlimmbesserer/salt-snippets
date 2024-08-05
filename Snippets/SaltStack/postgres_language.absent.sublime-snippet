@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  postgres_language.absent:
+    - name: $2
+    - maintenance_db: $3
+    - user: $4
+    - db_password: $5
+    - db_host: $6
+    - db_port: $7
+    - db_user: $8
+  $0
+]]></content>
+<tabTrigger>postgres_language.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

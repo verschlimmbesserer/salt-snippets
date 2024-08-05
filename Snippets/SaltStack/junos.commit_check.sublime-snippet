@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.commit_check:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>junos.commit_check</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_firewall.add_rule:
+    - name: $2
+    - localport: $3
+    - protocol: ${4:tcp}
+    - action: ${5:allow}
+    - dir: ${6:in}
+    - remoteip: ${7:any}
+  $0
+]]></content>
+<tabTrigger>win_firewall.add_rule</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

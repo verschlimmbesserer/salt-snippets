@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zone.absent:
+    - name: $2
+    - uninstall: ${3:false}
+  $0
+]]></content>
+<tabTrigger>zone.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

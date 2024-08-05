@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  cryptdev.unmapped:
+    - name: $2
+    - config: ${3:/etc/crypttab}
+    - persist: ${4:true}
+    - immediate: ${5:false}
+  $0
+]]></content>
+<tabTrigger>cryptdev.unmapped</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

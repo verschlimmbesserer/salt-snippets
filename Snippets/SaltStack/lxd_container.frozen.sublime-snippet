@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxd_container.frozen:
+    - name: $2
+    - start: ${3:true}
+    - remote_addr: $4
+    - cert: $5
+    - key: $6
+    - verify_cert: ${7:true}
+  $0
+]]></content>
+<tabTrigger>lxd_container.frozen</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  apache_conf.enabled:
+    - name: $2 # Name of the Apache conf
+  $0
+]]></content>
+<tabTrigger>apache_conf.enabled</tabTrigger>
+<description>Ensure an Apache conf is enabled.</description>
+<scope> source.sls </scope>
+</snippet>

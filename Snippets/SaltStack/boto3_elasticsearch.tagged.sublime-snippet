@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto3_elasticsearch.tagged:
+    - name: $2
+    - tags: $3
+    - replace: ${4:false}
+    - region: $5
+    - keyid: $6
+    - key: $7
+    - profile: $8
+  $0
+]]></content>
+<tabTrigger>boto3_elasticsearch.tagged</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

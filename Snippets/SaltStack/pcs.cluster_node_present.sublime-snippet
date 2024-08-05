@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pcs.cluster_node_present:
+    - name: $2
+    - node: $3
+    - extra_args: $4
+  $0
+]]></content>
+<tabTrigger>pcs.cluster_node_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

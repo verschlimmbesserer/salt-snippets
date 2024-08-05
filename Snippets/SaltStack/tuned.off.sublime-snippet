@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  tuned.off:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>tuned.off</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

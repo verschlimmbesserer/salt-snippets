@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  netconfig.commit_confirmed:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>netconfig.commit_confirmed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

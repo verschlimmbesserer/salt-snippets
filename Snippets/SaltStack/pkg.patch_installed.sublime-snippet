@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkg.patch_installed:
+    - name: $2
+    - advisory_ids: $3
+    - downloadonly: $4
+  $0
+]]></content>
+<tabTrigger>pkg.patch_installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

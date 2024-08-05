@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  nfs_export.present:
+    - name: $2
+    - clients: $3
+    - hosts: $4
+    - options: $5
+    - exports: ${6:/etc/exports}
+  $0
+]]></content>
+<tabTrigger>nfs_export.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

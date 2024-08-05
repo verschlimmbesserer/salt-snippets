@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  dism.feature_installed:
+    - name: $2
+    - package: $3
+    - source: $4
+    - limit_access: ${5:false}
+    - enable_parent: ${6:false}
+    - image: $7
+    - restart: ${8:false}
+  $0
+]]></content>
+<tabTrigger>dism.feature_installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

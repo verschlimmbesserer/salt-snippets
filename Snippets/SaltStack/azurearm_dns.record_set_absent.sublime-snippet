@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_dns.record_set_absent:
+    - name: $2
+    - zone_name: $3
+    - resource_group: $4
+    - connection_auth: $5
+  $0
+]]></content>
+<tabTrigger>azurearm_dns.record_set_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

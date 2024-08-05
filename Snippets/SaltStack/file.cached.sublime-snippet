@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.cached:
+    - name: $2
+    - source_hash: ${3:}
+    - source_hash_name: $4
+    - skip_verify: ${5:false}
+    - saltenv: ${6:base}
+  $0
+]]></content>
+<tabTrigger>file.cached</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

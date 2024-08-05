@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  influxdb_retention_policy.present:
+    - name: $2
+    - database: $3
+    - duration: ${4:7d}
+    - replication: ${5:1}
+    - default: ${6:false}
+  $0
+]]></content>
+<tabTrigger>influxdb_retention_policy.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

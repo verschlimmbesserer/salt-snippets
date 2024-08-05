@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  iptables.flush:
+    - name: $2
+    - table: ${3:filter}
+    - family: ${4:ipv4}
+  $0
+]]></content>
+<tabTrigger>iptables.flush</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

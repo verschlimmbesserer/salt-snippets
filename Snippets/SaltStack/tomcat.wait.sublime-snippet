@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  tomcat.wait:
+    - name: $2
+    - url: ${3:http://localhost:8080/manager}
+    - timeout: ${4:180}
+  $0
+]]></content>
+<tabTrigger>tomcat.wait</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

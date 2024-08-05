@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_iis.set_app:
+    - name: $2
+    - site: $3
+    - settings: $4
+  $0
+]]></content>
+<tabTrigger>win_iis.set_app</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

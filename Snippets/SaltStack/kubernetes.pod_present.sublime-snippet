@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  kubernetes.pod_present:
+    - name: $2
+    - namespace: ${3:default}
+    - metadata: $4
+    - spec: $5
+    - source: ${6:}
+    - template: ${7:}
+  $0
+]]></content>
+<tabTrigger>kubernetes.pod_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

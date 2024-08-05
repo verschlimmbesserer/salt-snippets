@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto3_elasticache.cache_cluster_absent:
+    - name: $2
+    - wait: ${3:600}
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto3_elasticache.cache_cluster_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

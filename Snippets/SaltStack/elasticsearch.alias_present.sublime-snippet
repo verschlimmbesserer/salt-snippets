@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  elasticsearch.alias_present:
+    - name: $2
+    - index: $3
+    - definition: $4
+  $0
+]]></content>
+<tabTrigger>elasticsearch.alias_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

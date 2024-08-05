@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  bower.pruned:
+    - name: $2
+    - user: $3
+    - env: $4
+  $0
+]]></content>
+<tabTrigger>bower.pruned</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

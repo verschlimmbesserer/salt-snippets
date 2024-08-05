@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+{% for $1 in $2 %}
+
+{% endfor %}
+  $0
+]]></content>
+<tabTrigger>for</tabTrigger>
+<scope> source.sls, source.jinja</scope>
+</snippet>

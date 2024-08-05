@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  raid.present:
+    - name: $2
+    - level: $3
+    - devices: $4
+  $0
+]]></content>
+<tabTrigger>raid.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

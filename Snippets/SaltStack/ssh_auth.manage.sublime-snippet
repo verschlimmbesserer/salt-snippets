@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ssh_auth.manage:
+    - name: $2
+    - ssh_keys: $3
+    - user: $4
+    - enc: ${5:ssh-rsa}
+    - comment: ${6:}
+    - source: ${7:}
+    - options: $8
+    - config: ${9:.ssh/authorized_keys}
+    - fingerprint_hash_type: $10
+  $0
+]]></content>
+<tabTrigger>ssh_auth.manage</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

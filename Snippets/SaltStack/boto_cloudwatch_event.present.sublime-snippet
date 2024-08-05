@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_cloudwatch_event.present:
+    - name: $2
+    - Name: $3
+    - ScheduleExpression: $4
+    - EventPattern: $5
+    - Description: $6
+    - RoleArn: $7
+    - State: $8
+    - Targets: $9
+    - region: $10
+    - key: $11
+    - keyid: $12
+    - profile: $13
+  $0
+]]></content>
+<tabTrigger>boto_cloudwatch_event.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

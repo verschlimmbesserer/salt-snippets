@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_ec2.eni_present:
+    - name: $2
+    - subnet_id: $3
+    - subnet_name: $4
+    - private_ip_address: $5
+    - description: $6
+    - groups: $7
+    - source_dest_check: ${8:true}
+    - allocate_eip: $9
+    - arecords: $10
+    - region: $11
+    - key: $12
+    - keyid: $13
+    - profile: $14
+  $0
+]]></content>
+<tabTrigger>boto_ec2.eni_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

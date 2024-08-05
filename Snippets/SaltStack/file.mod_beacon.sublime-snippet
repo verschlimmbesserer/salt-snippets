@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.mod_beacon:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>file.mod_beacon</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

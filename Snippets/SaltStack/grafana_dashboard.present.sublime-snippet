@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  grafana_dashboard.present:
+    - name: $2
+    - base_dashboards_from_pillar: $3
+    - base_panels_from_pillar: $4
+    - base_rows_from_pillar: $5
+    - dashboard: $6
+    - profile: ${7:grafana}
+  $0
+]]></content>
+<tabTrigger>grafana_dashboard.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

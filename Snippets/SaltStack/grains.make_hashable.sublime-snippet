@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  grains.make_hashable:
+    - list_grain: $2
+    - result: $3
+  $0
+]]></content>
+<tabTrigger>grains.make_hashable</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

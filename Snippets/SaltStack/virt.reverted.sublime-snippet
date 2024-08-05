@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  virt.reverted:
+    - name: $2
+    - snapshot: $3
+    - cleanup: ${4:false}
+  $0
+]]></content>
+<tabTrigger>virt.reverted</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  docker_network.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>docker_network.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

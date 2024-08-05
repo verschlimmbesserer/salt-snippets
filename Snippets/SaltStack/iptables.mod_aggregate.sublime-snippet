@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  iptables.mod_aggregate:
+    - low: $2
+    - chunks: $3
+    - running: $4
+  $0
+]]></content>
+<tabTrigger>iptables.mod_aggregate</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

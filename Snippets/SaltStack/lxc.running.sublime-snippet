@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxc.running:
+    - name: $2
+    - restart: ${3:false}
+    - path: $4
+  $0
+]]></content>
+<tabTrigger>lxc.running</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

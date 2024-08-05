@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxc.stopped:
+    - name: $2
+    - kill: ${3:false}
+    - path: $4
+  $0
+]]></content>
+<tabTrigger>lxc.stopped</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

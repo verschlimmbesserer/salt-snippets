@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  apache_site.enabled:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>apache_site.enabled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

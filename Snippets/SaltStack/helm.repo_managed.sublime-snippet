@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  helm.repo_managed:
+    - name: $2
+    - present: $3
+    - absent: $4
+    - prune: ${5:false}
+    - repo_update: ${6:false}
+    - namespace: $7
+    - flags: $8
+    - kvflags: $9
+  $0
+]]></content>
+<tabTrigger>helm.repo_managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

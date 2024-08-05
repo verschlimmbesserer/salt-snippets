@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_vpc.subnet_present:
+    - name: $2
+    - cidr_block: $3
+    - vpc_name: $4
+    - vpc_id: $5
+    - availability_zone: $6
+    - tags: $7
+    - region: $8
+    - key: $9
+    - keyid: $10
+    - profile: $11
+    - route_table_id: $12
+    - route_table_name: $13
+    - auto_assign_public_ipv4: ${14:false}
+  $0
+]]></content>
+<tabTrigger>boto_vpc.subnet_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

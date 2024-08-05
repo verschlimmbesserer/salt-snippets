@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  nftables.chain_present:
+    - name: $2
+    - table: ${3:filter}
+    - table_type: $4
+    - hook: $5
+    - priority: $6
+    - family: ${7:ipv4}
+  $0
+]]></content>
+<tabTrigger>nftables.chain_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

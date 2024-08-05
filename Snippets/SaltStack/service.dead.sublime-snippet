@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  service.dead:
+    - name: $2
+    - enable: $3
+    - sig: $4
+    - init_delay: $5
+  $0
+]]></content>
+<tabTrigger>service.dead</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

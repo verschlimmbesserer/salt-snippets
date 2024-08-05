@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  environ.setenv:
+    - name: $2
+    - value: $3
+    - false_unsets: ${4:false}
+    - clear_all: ${5:false}
+    - update_minion: ${6:false}
+    - permanent: ${7:false}
+  $0
+]]></content>
+<tabTrigger>environ.setenv</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

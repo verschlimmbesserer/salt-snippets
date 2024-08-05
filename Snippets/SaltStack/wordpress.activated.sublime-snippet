@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  wordpress.activated:
+    - name: $2
+    - path: $3
+    - user: $4
+  $0
+]]></content>
+<tabTrigger>wordpress.activated</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

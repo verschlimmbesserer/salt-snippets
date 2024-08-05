@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.service_exists:
+    - name: $2
+    - servicename: $3
+    - vsys: ${4:1}
+    - protocol: $5
+    - port: $6
+    - description: $7
+    - commit: ${8:false}
+  $0
+]]></content>
+<tabTrigger>panos.service_exists</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

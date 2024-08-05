@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  glusterfs.volume_present:
+    - name: $2
+    - bricks: $3
+    - stripe: ${4:false}
+    - replica: ${5:false}
+    - device_vg: ${6:false}
+    - transport: ${7:tcp}
+    - start: ${8:false}
+    - force: ${9:false}
+    - arbiter: ${10:false}
+  $0
+]]></content>
+<tabTrigger>glusterfs.volume_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

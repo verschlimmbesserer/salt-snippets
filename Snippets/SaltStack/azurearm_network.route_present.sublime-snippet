@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.route_present:
+    - name: $2
+    - address_prefix: $3
+    - next_hop_type: $4
+    - route_table: $5
+    - resource_group: $6
+    - next_hop_ip_address: $7
+    - connection_auth: $8
+  $0
+]]></content>
+<tabTrigger>azurearm_network.route_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

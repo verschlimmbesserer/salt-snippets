@@ -1,0 +1,26 @@
+<snippet>
+  <content><![CDATA[
+$1
+  netacl.term:
+    - name: $2
+    - filter_name: $3
+    - term_name: $4
+    - filter_options: $5
+    - pillar_key: ${6:acl}
+    - pillarenv: $7
+    - saltenv: $8
+    - merge_pillar: ${9:false}
+    - revision_id: $10
+    - revision_no: $11
+    - revision_date: ${12:true}
+    - revision_date_format: ${13:%y/%m/%d}
+    - test: ${14:false}
+    - commit: ${15:true}
+    - debug: ${16:false}
+    - source_service: $17
+    - destination_service: $18
+  $0
+]]></content>
+<tabTrigger>netacl.term</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

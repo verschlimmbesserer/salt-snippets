@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_vpc.present:
+    - name: $2
+    - cidr_block: $3
+    - instance_tenancy: $4
+    - dns_support: $5
+    - dns_hostnames: $6
+    - tags: $7
+    - region: $8
+    - key: $9
+    - keyid: $10
+    - profile: $11
+  $0
+]]></content>
+<tabTrigger>boto_vpc.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

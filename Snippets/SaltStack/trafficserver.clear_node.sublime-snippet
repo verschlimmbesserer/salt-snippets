@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  trafficserver.clear_node:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>trafficserver.clear_node</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

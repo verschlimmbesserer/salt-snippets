@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  service.disabled:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>service.disabled</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

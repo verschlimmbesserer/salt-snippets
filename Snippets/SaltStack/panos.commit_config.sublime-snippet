@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  panos.commit_config:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>panos.commit_config</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

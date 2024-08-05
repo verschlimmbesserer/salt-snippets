@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ssh_auth.absent:
+    - name: $2
+    - user: $3
+    - enc: ${4:ssh-rsa}
+    - comment: ${5:}
+    - source: ${6:}
+    - options: $7
+    - config: ${8:.ssh/authorized_keys}
+    - fingerprint_hash_type: $9
+  $0
+]]></content>
+<tabTrigger>ssh_auth.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

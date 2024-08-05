@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  kmod.present:
+    - name: $2
+    - persist: ${3:false}
+    - mods: $4
+  $0
+]]></content>
+<tabTrigger>kmod.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

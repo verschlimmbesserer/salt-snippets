@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_elasticache.absent:
+    - name: $2
+    - wait: ${3:true}
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto_elasticache.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

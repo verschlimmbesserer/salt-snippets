@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  svn.export:
+    - name: $2
+    - target: $3
+    - rev: $4
+    - user: $5
+    - username: $6
+    - password: $7
+    - force: ${8:false}
+    - overwrite: ${9:false}
+    - externals: ${10:true}
+    - trust: ${11:false}
+    - trust_failures: $12
+  $0
+]]></content>
+<tabTrigger>svn.export</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

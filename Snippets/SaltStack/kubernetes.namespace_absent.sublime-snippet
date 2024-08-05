@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  kubernetes.namespace_absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>kubernetes.namespace_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

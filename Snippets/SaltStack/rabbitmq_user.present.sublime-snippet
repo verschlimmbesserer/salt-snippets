@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  rabbitmq_user.present:
+    - name: $2
+    - password: $3
+    - force: $4
+    - tags: ${5:false}
+    - perms: $6
+    - runas: $7
+  $0
+]]></content>
+<tabTrigger>rabbitmq_user.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

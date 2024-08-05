@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+$1
+  docker_volume.present:
+    - name: $2
+    - driver: $3
+    - driver_opts: $4
+    - force: ${5:false}
+  $0
+]]></content>
+<tabTrigger>docker_volume.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

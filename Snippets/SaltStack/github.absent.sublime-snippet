@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+$1
+  github.absent:
+    - name: $2
+    - profile: ${3:github}
+  $0
+]]></content>
+<tabTrigger>github.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

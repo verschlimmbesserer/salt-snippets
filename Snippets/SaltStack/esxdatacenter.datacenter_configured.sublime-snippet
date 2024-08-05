@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  esxdatacenter.datacenter_configured:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>esxdatacenter.datacenter_configured</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lgpo.set:
+    - name: $2
+    - setting: $3
+    - policy_class: $4
+    - computer_policy: $5
+    - user_policy: $6
+    - cumulative_rights_assignments: ${7:true}
+    - adml_language: ${8:en-us}
+  $0
+]]></content>
+<tabTrigger>lgpo.set</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

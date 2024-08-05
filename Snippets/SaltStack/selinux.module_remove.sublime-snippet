@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  selinux.module_remove:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>selinux.module_remove</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

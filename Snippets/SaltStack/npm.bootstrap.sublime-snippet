@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  npm.bootstrap:
+    - name: $2
+    - user: $3
+    - silent: ${4:true}
+  $0
+]]></content>
+<tabTrigger>npm.bootstrap</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

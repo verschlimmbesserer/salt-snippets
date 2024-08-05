@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+$1
+  module.run:
+  $0
+]]></content>
+<tabTrigger>module.run</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

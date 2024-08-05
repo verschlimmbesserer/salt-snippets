@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  libcloud_storage.object_absent:
+    - container: $2
+    - name: $3
+    - profile: $4
+  $0
+]]></content>
+<tabTrigger>libcloud_storage.object_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

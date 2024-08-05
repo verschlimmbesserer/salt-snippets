@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto3_elasticache.cache_subnet_group_present:
+    - name: $2
+    - subnets: $3
+    - region: $4
+    - key: $5
+    - keyid: $6
+    - profile: $7
+  $0
+]]></content>
+<tabTrigger>boto3_elasticache.cache_subnet_group_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

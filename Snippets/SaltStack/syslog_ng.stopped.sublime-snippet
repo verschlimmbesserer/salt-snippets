@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  syslog_ng.stopped:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>syslog_ng.stopped</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

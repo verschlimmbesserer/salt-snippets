@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  x509.private_key_managed:
+    - name: $2
+    - bits: ${3:2048}
+    - passphrase: $4
+    - cipher: ${5:aes_128_cbc}
+    - new: ${6:false}
+    - overwrite: ${7:false}
+    - verbose: ${8:true}
+  $0
+]]></content>
+<tabTrigger>x509.private_key_managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

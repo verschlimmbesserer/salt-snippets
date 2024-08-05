@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_s3_bucket.absent:
+    - name: $2
+    - Bucket: $3
+    - Force: ${4:false}
+    - region: $5
+    - key: $6
+    - keyid: $7
+    - profile: $8
+  $0
+]]></content>
+<tabTrigger>boto_s3_bucket.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

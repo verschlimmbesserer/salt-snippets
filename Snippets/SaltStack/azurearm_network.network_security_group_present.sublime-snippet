@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.network_security_group_present:
+    - name: $2
+    - resource_group: $3
+    - tags: $4
+    - security_rules: $5
+    - connection_auth: $6
+  $0
+]]></content>
+<tabTrigger>azurearm_network.network_security_group_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

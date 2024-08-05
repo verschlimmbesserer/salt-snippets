@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_lambda.function_present:
+    - name: $2
+    - FunctionName: $3
+    - Runtime: $4
+    - Role: $5
+    - Handler: $6
+    - ZipFile: $7
+    - S3Bucket: $8
+    - S3Key: $9
+    - S3ObjectVersion: $10
+    - Description: ${11:}
+    - Timeout: ${12:3}
+    - MemorySize: ${13:128}
+    - Permissions: $14
+    - RoleRetries: ${15:5}
+    - region: $16
+    - key: $17
+    - keyid: $18
+    - profile: $19
+    - VpcConfig: $20
+    - Environment: $21
+  $0
+]]></content>
+<tabTrigger>boto_lambda.function_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

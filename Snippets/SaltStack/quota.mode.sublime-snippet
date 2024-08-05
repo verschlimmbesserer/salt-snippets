@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  quota.mode:
+    - name: $2
+    - mode: $3
+    - quotatype: $4
+  $0
+]]></content>
+<tabTrigger>quota.mode</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

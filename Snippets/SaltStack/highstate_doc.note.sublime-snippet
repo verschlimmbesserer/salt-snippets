@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  highstate_doc.note:
+    - name: $2
+    - source: $3
+    - contents: $4
+  $0
+]]></content>
+<tabTrigger>highstate_doc.note</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

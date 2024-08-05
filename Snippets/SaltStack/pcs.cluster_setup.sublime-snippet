@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pcs.cluster_setup:
+    - name: $2
+    - nodes: $3
+    - pcsclustername: ${4:pcscluster}
+    - extra_args: $5
+    - pcsuser: ${6:hacluster}
+    - pcspasswd: ${7:hacluster}
+    - pcs_auth_extra_args: $8
+    - wipe_default: ${9:false}
+  $0
+]]></content>
+<tabTrigger>pcs.cluster_setup</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

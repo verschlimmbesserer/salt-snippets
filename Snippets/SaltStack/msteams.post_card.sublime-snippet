@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  msteams.post_card:
+    - name: $2
+    - message: $3
+    - hook_url: $4
+    - title: $5
+    - theme_color: $6
+  $0
+]]></content>
+<tabTrigger>msteams.post_card</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

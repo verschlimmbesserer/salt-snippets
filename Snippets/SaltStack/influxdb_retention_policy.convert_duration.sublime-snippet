@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  influxdb_retention_policy.convert_duration:
+    - duration: $2
+  $0
+]]></content>
+<tabTrigger>influxdb_retention_policy.convert_duration</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

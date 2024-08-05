@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto3_elasticsearch.present:
+    - name: $2
+    - elasticsearch_version: $3
+    - elasticsearch_cluster_config: $4
+    - ebs_options: $5
+    - access_policies: $6
+    - snapshot_options: $7
+    - vpc_options: $8
+    - cognito_options: $9
+    - encryption_at_rest_options: $10
+    - node_to_node_encryption_options: $11
+    - advanced_options: $12
+    - log_publishing_options: $13
+    - blocking: ${14:true}
+    - tags: $15
+    - region: $16
+    - keyid: $17
+    - key: $18
+    - profile: $19
+  $0
+]]></content>
+<tabTrigger>boto3_elasticsearch.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ipmi.user_present:
+    - name: $2
+    - uid: $3
+    - password: $4
+    - channel: ${5:14}
+    - callback: ${6:false}
+    - link_auth: ${7:true}
+    - ipmi_msg: ${8:true}
+    - privilege_level: ${9:administrator}
+  $0
+]]></content>
+<tabTrigger>ipmi.user_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

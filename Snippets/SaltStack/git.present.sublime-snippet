@@ -1,0 +1,18 @@
+<snippet>
+  <content><![CDATA[
+$1
+  git.present:
+    - name: $2
+    - force: ${3:false}
+    - bare: ${4:true}
+    - template: $5
+    - separate_git_dir: $6
+    - shared: $7
+    - user: $8
+    - password: $9
+    - output_encoding: $10
+  $0
+]]></content>
+<tabTrigger>git.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

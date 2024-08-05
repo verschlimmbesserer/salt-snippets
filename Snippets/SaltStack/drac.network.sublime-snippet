@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  drac.network:
+    - ip: $2
+    - netmask: $3
+    - gateway: $4
+  $0
+]]></content>
+<tabTrigger>drac.network</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

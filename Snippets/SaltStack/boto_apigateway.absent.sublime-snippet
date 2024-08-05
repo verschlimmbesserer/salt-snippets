@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_apigateway.absent:
+    - name: $2
+    - api_name: $3
+    - stage_name: $4
+    - nuke_api: ${5:false}
+    - region: $6
+    - key: $7
+    - keyid: $8
+    - profile: $9
+  $0
+]]></content>
+<tabTrigger>boto_apigateway.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

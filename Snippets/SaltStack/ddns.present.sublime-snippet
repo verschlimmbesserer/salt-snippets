@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  ddns.present:
+    - name: $2
+    - zone: $3
+    - ttl: $4
+    - data: $5
+    - rdtype: ${6:a}
+  $0
+]]></content>
+<tabTrigger>ddns.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

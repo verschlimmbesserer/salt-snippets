@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  junos.load:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>junos.load</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

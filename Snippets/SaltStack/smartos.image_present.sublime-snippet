@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  smartos.image_present:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>smartos.image_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

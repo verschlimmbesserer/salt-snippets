@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  win_path.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>win_path.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

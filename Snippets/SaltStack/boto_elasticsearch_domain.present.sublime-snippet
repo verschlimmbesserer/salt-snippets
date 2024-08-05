@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_elasticsearch_domain.present:
+    - name: $2
+    - DomainName: $3
+    - ElasticsearchClusterConfig: $4
+    - EBSOptions: $5
+    - AccessPolicies: $6
+    - SnapshotOptions: $7
+    - AdvancedOptions: $8
+    - Tags: $9
+    - region: $10
+    - key: $11
+    - keyid: $12
+    - profile: $13
+    - ElasticsearchVersion: ${14:1.5}
+  $0
+]]></content>
+<tabTrigger>boto_elasticsearch_domain.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+$1
+  statuspage.managed:
+    - name: $2
+    - config: $3
+    - api_url: $4
+    - page_id: $5
+    - api_key: $6
+    - api_version: $7
+    - pace: $8
+    - allow_empty: ${9:false}
+  $0
+]]></content>
+<tabTrigger>statuspage.managed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

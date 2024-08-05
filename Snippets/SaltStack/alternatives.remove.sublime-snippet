@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  alternatives.remove:
+    - name: $2 # is the master name for this link group (e.g. pager)
+    - path: $3 # is the location of one of the alternative target files. (e.g. /usr/bin/less)
+  $0
+]]></content>
+<tabTrigger>alternatives.remove</tabTrigger>
+<description>Removes installed alternative for defined "name" and "path" or fallback to default alternative, if some defined before.</description>
+<scope> source.sls </scope>
+</snippet>

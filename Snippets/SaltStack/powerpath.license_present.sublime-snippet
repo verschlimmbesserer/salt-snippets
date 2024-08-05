@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  powerpath.license_present:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>powerpath.license_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

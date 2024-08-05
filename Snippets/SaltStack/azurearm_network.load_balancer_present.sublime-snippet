@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.load_balancer_present:
+    - name: $2
+    - resource_group: $3
+    - sku: $4
+    - frontend_ip_configurations: $5
+    - backend_address_pools: $6
+    - load_balancing_rules: $7
+    - probes: $8
+    - inbound_nat_rules: $9
+    - inbound_nat_pools: $10
+    - outbound_nat_rules: $11
+    - tags: $12
+    - connection_auth: $13
+  $0
+]]></content>
+<tabTrigger>azurearm_network.load_balancer_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

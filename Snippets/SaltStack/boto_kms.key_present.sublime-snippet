@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto_kms.key_present:
+    - name: $2
+    - policy: $3
+    - description: $4
+    - key_usage: $5
+    - grants: $6
+    - manage_grants: ${7:false}
+    - key_rotation: ${8:false}
+    - enabled: ${9:true}
+    - region: $10
+    - key: $11
+    - keyid: $12
+    - profile: $13
+  $0
+]]></content>
+<tabTrigger>boto_kms.key_present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

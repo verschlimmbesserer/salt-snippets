@@ -1,0 +1,27 @@
+<snippet>
+  <content><![CDATA[
+$1
+  virt.network_defined:
+    - name: $2
+    - bridge: $3
+    - forward: $4
+    - vport: $5
+    - tag: $6
+    - ipv4_config: $7
+    - ipv6_config: $8
+    - autostart: ${9:true}
+    - connection: $10
+    - username: $11
+    - password: $12
+    - mtu: $13
+    - domain: $14
+    - nat: $15
+    - interfaces: $16
+    - addresses: $17
+    - physical_function: $18
+    - dns: $19
+  $0
+]]></content>
+<tabTrigger>virt.network_defined</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

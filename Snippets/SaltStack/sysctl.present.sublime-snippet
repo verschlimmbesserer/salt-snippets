@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  sysctl.present:
+    - name: $2
+    - value: $3
+    - config: $4
+  $0
+]]></content>
+<tabTrigger>sysctl.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

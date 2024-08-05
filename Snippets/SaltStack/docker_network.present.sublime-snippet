@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  docker_network.present:
+    - name: $2
+    - skip_translate: $3
+    - ignore_collisions: ${4:false}
+    - validate_ip_addrs: ${5:true}
+    - containers: $6
+    - reconnect: ${7:true}
+  $0
+]]></content>
+<tabTrigger>docker_network.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

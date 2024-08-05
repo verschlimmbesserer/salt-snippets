@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  wordpress.deactivated:
+    - name: $2
+    - path: $3
+    - user: $4
+  $0
+]]></content>
+<tabTrigger>wordpress.deactivated</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

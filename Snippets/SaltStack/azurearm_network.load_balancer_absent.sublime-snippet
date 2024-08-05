@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  azurearm_network.load_balancer_absent:
+    - name: $2
+    - resource_group: $3
+    - connection_auth: $4
+  $0
+]]></content>
+<tabTrigger>azurearm_network.load_balancer_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

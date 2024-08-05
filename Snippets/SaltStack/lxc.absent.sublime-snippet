@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxc.absent:
+    - name: $2
+    - stop: ${3:false}
+    - path: $4
+  $0
+]]></content>
+<tabTrigger>lxc.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

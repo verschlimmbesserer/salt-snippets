@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  salt.wait_for_event:
+    - name: $2
+    - id_list: $3
+    - event_id: ${4:id}
+    - timeout: ${5:300}
+    - node: ${6:master}
+  $0
+]]></content>
+<tabTrigger>salt.wait_for_event</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

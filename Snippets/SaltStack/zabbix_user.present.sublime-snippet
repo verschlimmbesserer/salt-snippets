@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+$1
+  zabbix_user.present:
+    - alias: $2
+    - passwd: $3
+    - usrgrps: $4
+    - medias: $5
+    - password_reset: ${6:false}
+  $0
+]]></content>
+<tabTrigger>zabbix_user.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

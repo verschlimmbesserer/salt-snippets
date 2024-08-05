@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mssql_user.absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>mssql_user.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

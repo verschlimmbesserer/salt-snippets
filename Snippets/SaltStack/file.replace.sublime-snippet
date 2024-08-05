@@ -1,0 +1,22 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.replace:
+    - name: $2
+    - pattern: $3
+    - repl: $4
+    - count: ${5:0}
+    - flags: ${6:8}
+    - bufsize: ${7:1}
+    - append_if_not_found: ${8:false}
+    - prepend_if_not_found: ${9:false}
+    - not_found_content: $10
+    - backup: ${11:.bak}
+    - show_changes: ${12:true}
+    - ignore_if_missing: ${13:false}
+    - backslash_literal: ${14:false}
+  $0
+]]></content>
+<tabTrigger>file.replace</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

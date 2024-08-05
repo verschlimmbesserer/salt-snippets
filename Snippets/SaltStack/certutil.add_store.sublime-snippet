@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  certutil.add_store:
+    - name: $2
+    - store: $3
+    - saltenv: ${4:base}
+  $0
+]]></content>
+<tabTrigger>certutil.add_store</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

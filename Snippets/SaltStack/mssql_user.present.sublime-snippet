@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+$1
+  mssql_user.present:
+    - name: $2
+    - login: $3
+    - domain: $4
+    - database: $5
+    - roles: $6
+    - options: $7
+  $0
+]]></content>
+<tabTrigger>mssql_user.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

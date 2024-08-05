@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lxc.set_pass:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>lxc.set_pass</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

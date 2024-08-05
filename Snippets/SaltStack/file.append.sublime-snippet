@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+$1
+  file.append:
+    - name: $2
+    - text: $3
+    - makedirs: ${4:false}
+    - source: $5
+    - source_hash: $6
+    - template: ${7:jinja}
+    - sources: $8
+    - source_hashes: $9
+    - defaults: $10
+    - context: $11
+    - ignore_whitespace: ${12:true}
+  $0
+]]></content>
+<tabTrigger>file.append</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

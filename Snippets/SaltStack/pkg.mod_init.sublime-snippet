@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  pkg.mod_init:
+    - low: $2
+  $0
+]]></content>
+<tabTrigger>pkg.mod_init</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

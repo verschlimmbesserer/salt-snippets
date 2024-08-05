@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  boto3_route53.hosted_zone_absent:
+    - name: $2
+    - Name: $3
+    - PrivateZone: ${4:false}
+    - region: $5
+    - key: $6
+    - keyid: $7
+    - profile: $8
+  $0
+]]></content>
+<tabTrigger>boto3_route53.hosted_zone_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  keychain.installed:
+    - name: $2
+    - password: $3
+    - keychain: ${4:/library/keychains/system.keychain}
+  $0
+]]></content>
+<tabTrigger>keychain.installed</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

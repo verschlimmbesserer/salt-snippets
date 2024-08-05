@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  salt_proxy.configure_proxy:
+    - name: $2
+    - proxyname: ${3:p8000}
+    - start: ${4:true}
+  $0
+]]></content>
+<tabTrigger>salt_proxy.configure_proxy</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

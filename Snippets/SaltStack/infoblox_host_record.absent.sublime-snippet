@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  infoblox_host_record.absent:
+    - name: $2
+    - ipv4addr: $3
+    - mac: $4
+  $0
+]]></content>
+<tabTrigger>infoblox_host_record.absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

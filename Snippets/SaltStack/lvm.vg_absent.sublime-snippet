@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+$1
+  lvm.vg_absent:
+    - name: $2
+  $0
+]]></content>
+<tabTrigger>lvm.vg_absent</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+$1
+  openvswitch_port.present:
+    - name: $2
+    - bridge: $3
+    - tunnel_type: $4
+    - id: $5
+    - remote: $6
+    - dst_port: $7
+    - internal: ${8:false}
+  $0
+]]></content>
+<tabTrigger>openvswitch_port.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>

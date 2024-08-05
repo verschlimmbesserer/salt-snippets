@@ -1,0 +1,12 @@
+<snippet>
+  <content><![CDATA[
+$1
+  drac.present:
+    - name: $2
+    - password: $3
+    - permission: $4
+  $0
+]]></content>
+<tabTrigger>drac.present</tabTrigger>
+<scope> source.sls </scope>
+</snippet>
